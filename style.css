@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Raleway-Regular;
+    src: url('Raleway-Regular.ttf') format('truetype'),
+        url('Raleway-Regular.eot') format('eot'),
+        url('Raleway-Regular.woff') format('woff'),
+        url('Raleway-Regular.svg') format('svg');    ;
+}
+
+body
+ {
+        font-family: 'Raleway-Regular', Arial, serif;
+}
+
+header
+ {
+color:#0065FC ;
+}
+
+#section1 
+ { 
+    background-color: #F2F2F2 ;
+ }
+
+ #section2 
+  {
+    background-color: #F2F2F2 ;
+  }
+
+  footer
+  {
+    background-color: #F2F2F2 ;
+   }
