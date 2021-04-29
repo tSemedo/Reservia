@@ -3,75 +3,53 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9636d1f6e9.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
   </head>
 
   <body>
-    <header>
-        <figure>
-          <img src="images/logo/Reservia@3x.png" alt="Reservia"/>
+    <header id="topSection">
+        <figure class="element_1">
+          <img src="images/logo/Reservia@3x_mini.jpg" alt="Reservia"/>
         </figure>
-        <ul>
-          <li><a href="#">Hébergements</a></li>
-          <li><a href="#">Activités</a></li>
-          <li><a href="#">S'inscrire</a></li>
+        <ul class="element_2">
+          <li><a href="#" class="element_3">Hébergements</a></li>
+          <li><a href="#" class="element_4">Activités</a></li>
+          <li><a href="#" class="element_5">S'inscrire</a></li>
         </ul>
     </header>
 
-    <nav>
-      <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-      <p>En plein centre ville ou en pleine nature</p>
-      <form method="post" action="traitement.php"> 
-          <p>
-              <label for="ville">Dans quel villes souhaitez vous allez ?</label>
+    <nav id="menu">
+        <h1 class="menu_1">Trouver votre hébergement pour des vacances de rêve</h1>
+          <p>En plein centre ville ou en pleine nature</p>
+            <form method="post" action="traitement.php" class="menu_2"> 
+          <p>   
+              <i class="fas fa-map-marker-alt"></i>           
               <input type="text" name="ville" id="ville" value="Marseille, France"/>
               <input type="button" value="Rechercher"/>
           </p> 
-      </form>
-      <p>Plus de 500 logements sont disponibles dans cette ville</p>
-      <h2>Filtres</h2>
-      <form method="POST" action="traitement.php">
-        <p>
-            <label>Economique</label>
-            <select name="economique" id="economique">
-                <option value="max.50euros">Max. 50€/nuit</option>
-                <option value="max.100euros">Max. 100€/nuit</option>
-                <option value="max.200euros">Max. 200€/nuit</option>
-                <option value="max.300euros">Max. 300€/nuit</option>
-            </select>
-        </p>
-      </form>
-      <form method="POST" action="traitement.php">
-        <p>
-            <label>Familial</label>
-            <select name="familial" id="familial">
-                <option value="1user">1 personne</option>
-                <option value="2user">2 personnes</option>
-                <option value="3user">3 personnes</option>
-                <option value="5user">Plus de 3 personnes</option>
-            </select>
-        </p>
-      </form>
-      <form method="POST" action="traitement.php">
-        <p>
-          <label>Romantique</label>
-          <select name="romantique" id="romantique">
-              <option value="level1">Nid douillet</option>
-              <option value="level2">Atypique</option>
-              <option value="level3">Lune de miel</option>
-          </select>
-        </p>
-      </form>
-      </form>
-      <form method="POST" action="traitement.php">
-      <p>
-        <label>Animaux autorisés</label>
-        <select name="animal" id="animal">
-            <option value="approuved">Animaux acceptés</option>
-            <option value="nonApprouved">Animaux strictement interdit</option>
-         </select>
-      </p>
-     </form>
+            </form>
+          <p class="menu_3"><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+      <div class="menu_4">
+
+        <h2>Filtres</h2>
+
+          <div class="menu_5">         
+            <h3><a hef="#"><i class="fas fa-money-bill-wave"></i> Economique</a></h3>
+          </div>
+
+          <div class="menu_6">
+            <h3><a hef="#"><i class="fas fa-child"></i> Familial</a></h3>
+          </div>
+
+          <div class="menu_7">
+            <h3><a hef="#"><i class="fas fa-heart"></i> Romantique</a></h3>
+          </div>
+
+          <div class="menu_8">
+            <h3><a hef="#"><i class="fas fa-dog"></i> Animaux autorisés</a></h3>
+          </div>
+      </div>
     </nav>
 
     <section id="section1">
