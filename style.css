@@ -35,13 +35,21 @@ ul {
 #section1 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
     background-color: #f2f2f2;
+    border: whitesmoke solid 1px ;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 470px;
+    max-height: 700px;
+    margin-bottom: 200px;
 }
 .section2 {
   background-color: #f2f2f2;
   align-self: flex-end;
-  flex-direction: column ;
+  flex-direction: column;
   border: solid black 1px;
 }
 #topSection {
@@ -181,7 +189,7 @@ ul {
 }
 /*<Effet de survol Filtres*/
 /*Icons*/
-i {
+.i {
     font-size: 15px;
     color: #0065FC;
     background-color:#DEEBFF;
@@ -190,10 +198,13 @@ i {
     border-radius:  80%;
 }
 .i1 {
+    font-size: 15px;
     color: black;
     background-color: #f2f2f2;
     border-radius: 15px 0px 0px 15px;
     width: 15px;
+    padding: 14px;
+    margin-right: 5px;
 }
 .i2 {
     color: white;
@@ -201,6 +212,7 @@ i {
     font-size: 20px ;
     padding: 0px;
     border: solid rgb(167, 166, 166) 1px;
+    border-radius:  80%;
 }
 /*<Icons*/
 
@@ -240,9 +252,397 @@ i {
 /*Barre de recherche*/
 
 /*Section 1*/
+.title {
+    display: block;
+    flex-wrap: wrap;
+    background-color: #0e0202);
+    height: 20%;
+    font-family: 'Raleway-Bold';
+    margin-left: 40px;
+}
 
+/*Vignette1*/
+#vignette1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-self:baseline;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 90px;
+    width: 225px;
+    max-height: 210px;
+    border: solid white 5px;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;    
+    background-color: white;
+    position: relative;
+    right: 325px;
+}
+.photoVig1 {
+    position: relative;
+    bottom: 30px;
+    border: solid white 5px;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+	height: 140px;
+    order: 1;
+}
+.titleVig1 {
+    align-self: flex-start;
+    position: relative;
+    bottom : 60px;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 1px;
+    order: 2;
+    width: 230px;
+    font-family:'Raleway-Bold';
+}
+.prixVig1 {
+    display: flex;
+    align-self: flex-start;
+    flex-flow: nowrap column;
+    margin-left: 15px;
+    order: 3;
+    position: relative;
+    bottom: 85px;
+}
 
+.note1 {
+    display: flex;
+    font-size: 14px;
 
+    position: relative;
+    bottom: 108px;
+    left: -59px;
+
+    order: 4;
+    color: #0065FC;
+}
+.note1Not {
+    color: #c7c3c3;
+}
+/*Vignete2*/
+.vignette2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-self:baseline;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 225px;
+    max-height: 210px;
+    border: solid white 5px;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;    
+    background-color: white;
+    position:relative;
+    left: 295px;
+    bottom: 235px;
+    
+}
+.photoVig2 {
+    position: relative;
+    bottom: 30px;
+    border: solid white 5px;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+	height: 140px;
+    order: 1;
+}
+.titleVig2 {
+    align-self: flex-start;
+    position: relative;
+    bottom : 60px;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 1px;
+    order: 2;
+    width: 230px;
+    font-family:'Raleway-Bold';
+}
+.prixVig2 {
+    display: flex;
+    align-self: flex-start;
+    flex-flow: nowrap column;
+    margin-left: 15px;
+    order: 3;
+    position: relative;
+    bottom: 85px;
+}
+
+.note2 {
+    display: flex;
+    font-size: 14px;
+
+    position: relative;
+    bottom: 108px;
+    left: -59px;
+
+    order: 4;
+    color: #0065FC;
+}
+/*Vgignette3*/
+.vignette3 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-self:baseline;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 225px;
+    max-height: 210px;
+    border: solid white 5px;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;    
+    background-color: white;
+    position: relative;
+    left: 285Px;
+    bottom: 235px;
+
+    
+}
+.photoVig3 {
+    position: relative;
+    bottom: 30px;
+    border: solid white 5px;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+	height: 140px;
+    order: 1;
+}
+.titleVig3 {
+    align-self: flex-start;
+    position: relative;
+    bottom : 60px;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 1px;
+    order: 2;
+    width: 230px;
+    font-family:'Raleway-Bold';
+}
+.prixVig3 {
+    display: flex;
+    align-self: flex-start;
+    flex-flow: nowrap column;
+    margin-left: 15px;
+    order: 3;
+    position: relative;
+    bottom: 85px;
+}
+
+.note3  {
+    display: flex;
+    font-size: 14px;
+
+    position: relative;
+    bottom: 108px;
+    left: -59px;
+
+    order: 4;
+    color: #0065FC;
+}
+.note3Not {
+    color: #c7c3c3;
+}
+/*Vignette4*/
+.vignette4 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-self:flex-start;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 225px;
+    max-height: 210px;
+    border: solid white 5px;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;    
+    background-color: white;
+    position: relative;
+    right: 510px;
+    top: 20px;
+    
+}
+.photoVig4 {
+    position: relative;
+    bottom: 30px;
+    border: solid white 5px;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+	height: 140px;
+    order: 1;
+}
+.titleVig4 {
+    align-self: flex-start;
+    position: relative;
+    bottom : 60px;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 1px;
+    order: 2;
+    width: 230px;
+    font-family:'Raleway-Bold';
+}
+.prixVig4 {
+    display: flex;
+    align-self: flex-start;
+    flex-flow: nowrap column;
+    margin-left: 15px;
+    order: 3;
+    position: relative;
+    bottom: 85px;
+}
+
+.note4  {
+    display: flex;
+    font-size: 14px;
+
+    position: relative;
+    bottom: 108px;
+    left: -59px;
+
+    order: 4;
+    color: #0065FC;
+}
+.note4Not {
+    color: #c7c3c3;
+}
+/*Vignette5*/
+
+.vignette5 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-self:baseline;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 225px;
+    max-height: 210px;
+    border: solid white 5px;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;    
+    background-color: white;
+    position: relative;
+    bottom: 215px;
+    left: 265px;
+}
+.photoVig5 {
+    position: relative;
+    bottom: 30px;
+    border: solid white 5px;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+	height: 140px;
+    order: 1;
+}
+.titleVig5 {
+    align-self: flex-start;
+    position: relative;
+    bottom : 60px;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 1px;
+    order: 2;
+    width: 230px;
+    font-family:'Raleway-Bold';
+}
+.prixVig5 {
+    display: flex;
+    align-self: flex-start;
+    flex-flow: nowrap column;
+    margin-left: 15px;
+    order: 3;
+    position: relative;
+    bottom: 85px;
+}
+
+.note5  {
+    display: flex;
+    font-size: 14px;
+
+    position: relative;
+    bottom: 108px;
+    left: -59px;
+
+    order: 4;
+    color: #0065FC;
+}
+.note5Not {
+    color: #c7c3c3;
+}
+/*Vignette6*/
+
+.vignette6 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-self:baseline;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 225px;
+    max-height: 210px;
+    border: solid white 5px;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;    
+    background-color: white;
+    position: relative;
+    left: 265Px;
+    bottom: 349px;
+
+   
+}
+.photoVig6 { 
+    position: relative;
+    bottom: 239px;
+    right: 60px;
+    border: solid white 5px;
+    border-radius: 20px 20px 0px 0px;
+    width: 225px;
+	height: 140px;
+    order: 1;
+}
+.titleVig6 {
+    align-self: flex-start;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 1px;
+    order: 2;
+    width: 230px;
+    font-family:'Raleway-Bold';
+    position: relative;
+    top: 124px;
+}
+.prixVig6 {
+    display: flex;
+    align-self: flex-start;
+    flex-flow: nowrap column;
+    margin-left: 15px;
+    order: 3;
+    position: relative;
+    top: 110px;
+    
+}
+
+.note6  {
+    display: flex;
+    font-size: 14px;
+
+    position: relative;
+    bottom: 220px;
+    right: 40px;px;
+
+    
+    order: 4;
+    color: #0065FC;
+}
 
 /*<Section 1*/
 /*Footer*/
