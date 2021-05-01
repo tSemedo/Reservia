@@ -1,4 +1,5 @@
 /*Police Raleway*/
+
 @font-face {
   font-family: Raleway-Regular;
   src: url("Raleway-Regular.ttf") format("truetype"),
@@ -17,6 +18,7 @@ body {
   font-family: "Raleway-Regular", Arial, serif;
 }
 /*Taille texte*/
+
 .tailleText1 {
 font-size: 17px;
 font-family: "Raleway-Blod",  Arial, serif
@@ -25,6 +27,7 @@ font-family: "Raleway-Blod",  Arial, serif
 /*<Police Raleway*/
 
 /*Header-Topsection*/
+
 header {
   color: #0065fc;
 }
@@ -32,26 +35,7 @@ ul {
   list-style: none;
   font-size: 17px;
 }
-#section1 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    background-color: #f2f2f2;
-    border: whitesmoke solid 1px ;
-    border-radius: 30px;
-    margin-left: 30px;
-    margin-right: 470px;
-    max-height: 700px;
-    margin-bottom: 200px;
-}
-.section2 {
-  background-color: #f2f2f2;
-  align-self: flex-end;
-  flex-direction: column;
-  border: solid black 1px;
-}
+
 #topSection {
   display: flex;
   justify-content: space-between;
@@ -88,6 +72,7 @@ ul {
 }
 /*<Header-Topsection*/
 /*Menu*/
+
 #menu {
     display: flex;
     flex-flow: column wrap;
@@ -159,12 +144,14 @@ ul {
     font-size: 13px;
 }
 /*Effet de survol Filtres*/
+
 .menu_5:hover {
     color: #7B68EE;
     text-decoration: none;
     background-image:url(images/gif/cloud_mini.gif);
     background-position: center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;  
+    cursor: pointer; 
 }
 .menu_6:hover {
     color: #7B68EE;
@@ -172,13 +159,15 @@ ul {
     background-image:url(images/gif/cloud_mini.gif);
     background-position: center;
     background-repeat: no-repeat;   
+    cursor: pointer;
 }
 .menu_7:hover {
     color: #7B68EE;
     text-decoration: none;
     background-image:url(images/gif/cloud_mini.gif);
     background-position: center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;  
+    cursor: pointer; 
 }
 .menu_8:hover {
     color: #7B68EE;
@@ -186,9 +175,11 @@ ul {
     background-image:url(images/gif/cloud_mini.gif);
     background-position: center;
     background-repeat: no-repeat;   
+    cursor: pointer;
 }
 /*<Effet de survol Filtres*/
 /*Icons*/
+
 .i {
     font-size: 15px;
     color: #0065FC;
@@ -218,6 +209,7 @@ ul {
 
 /*<Menu*/
 /*Barre de recherche*/
+
 #menu2_ {
     display: flex;
     }
@@ -247,12 +239,13 @@ ul {
     color: white;
     border: grey solid 1px;
     border-radius: 0px  13px 13px 0px ;
+    cursor: pointer;
 }
-
 /*Barre de recherche*/
 
 /*Section 1*/
-.title {
+
+.titleS1 {
     display: block;
     flex-wrap: wrap;
     background-color: #0e0202);
@@ -261,8 +254,35 @@ ul {
     margin-left: 40px;
 }
 
+.title_2_S1 {
+    font-family: 'Raleway-Bold';
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 50px;
+    right: 490px;
+    
+    
+}
+#section1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: #f2f2f2;
+    border: white solid 1px ;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 470px;
+    max-height: 700px;
+    margin-bottom: 200px;
+    margin-top: -200px;
+}
+
 /*Vignette1*/
-#vignette1 {
+
+#S1vignette1 {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -279,7 +299,7 @@ ul {
     position: relative;
     right: 325px;
 }
-.photoVig1 {
+.S1photoVig1 {
     position: relative;
     bottom: 30px;
     border: solid white 5px;
@@ -288,7 +308,7 @@ ul {
 	height: 140px;
     order: 1;
 }
-.titleVig1 {
+.S1titleVig1 {
     align-self: flex-start;
     position: relative;
     bottom : 60px;
@@ -299,17 +319,17 @@ ul {
     width: 230px;
     font-family:'Raleway-Bold';
 }
-.prixVig1 {
+.S1prixVig1 {
     display: flex;
     align-self: flex-start;
-    flex-flow: nowrap column;
+    flex-flow: nowrap row;
     margin-left: 15px;
     order: 3;
     position: relative;
     bottom: 85px;
 }
 
-.note1 {
+.S1note1 {
     display: flex;
     font-size: 14px;
 
@@ -320,11 +340,12 @@ ul {
     order: 4;
     color: #0065FC;
 }
-.note1Not {
+.S1note1Not {
     color: #c7c3c3;
 }
 /*Vignete2*/
-.vignette2 {
+
+.S1vignette2 {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -343,7 +364,7 @@ ul {
     bottom: 235px;
     
 }
-.photoVig2 {
+.S1photoVig2 {
     position: relative;
     bottom: 30px;
     border: solid white 5px;
@@ -352,7 +373,7 @@ ul {
 	height: 140px;
     order: 1;
 }
-.titleVig2 {
+.S1titleVig2 {
     align-self: flex-start;
     position: relative;
     bottom : 60px;
@@ -363,17 +384,17 @@ ul {
     width: 230px;
     font-family:'Raleway-Bold';
 }
-.prixVig2 {
+.S1prixVig2 {
     display: flex;
     align-self: flex-start;
-    flex-flow: nowrap column;
+    flex-flow: nowrap row;
     margin-left: 15px;
     order: 3;
     position: relative;
     bottom: 85px;
 }
 
-.note2 {
+.S1note2 {
     display: flex;
     font-size: 14px;
 
@@ -385,7 +406,8 @@ ul {
     color: #0065FC;
 }
 /*Vgignette3*/
-.vignette3 {
+
+.S1vignette3 {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -405,7 +427,7 @@ ul {
 
     
 }
-.photoVig3 {
+.S1photoVig3 {
     position: relative;
     bottom: 30px;
     border: solid white 5px;
@@ -414,7 +436,7 @@ ul {
 	height: 140px;
     order: 1;
 }
-.titleVig3 {
+.S1titleVig3 {
     align-self: flex-start;
     position: relative;
     bottom : 60px;
@@ -425,17 +447,17 @@ ul {
     width: 230px;
     font-family:'Raleway-Bold';
 }
-.prixVig3 {
+.S1prixVig3 {
     display: flex;
     align-self: flex-start;
-    flex-flow: nowrap column;
+    flex-flow: nowrap row;
     margin-left: 15px;
     order: 3;
     position: relative;
     bottom: 85px;
 }
 
-.note3  {
+.S1note3  {
     display: flex;
     font-size: 14px;
 
@@ -446,11 +468,12 @@ ul {
     order: 4;
     color: #0065FC;
 }
-.note3Not {
+.S1note3Not {
     color: #c7c3c3;
 }
 /*Vignette4*/
-.vignette4 {
+
+.S1vignette4 {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -469,7 +492,7 @@ ul {
     top: 20px;
     
 }
-.photoVig4 {
+.S1photoVig4 {
     position: relative;
     bottom: 30px;
     border: solid white 5px;
@@ -478,7 +501,7 @@ ul {
 	height: 140px;
     order: 1;
 }
-.titleVig4 {
+.S1titleVig4 {
     align-self: flex-start;
     position: relative;
     bottom : 60px;
@@ -489,17 +512,17 @@ ul {
     width: 230px;
     font-family:'Raleway-Bold';
 }
-.prixVig4 {
+.S1prixVig4 {
     display: flex;
     align-self: flex-start;
-    flex-flow: nowrap column;
+    flex-flow: nowrap row;
     margin-left: 15px;
     order: 3;
     position: relative;
     bottom: 85px;
 }
 
-.note4  {
+.S1note4  {
     display: flex;
     font-size: 14px;
 
@@ -510,12 +533,12 @@ ul {
     order: 4;
     color: #0065FC;
 }
-.note4Not {
+.S1note4Not {
     color: #c7c3c3;
 }
 /*Vignette5*/
 
-.vignette5 {
+.S1vignette5 {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -533,7 +556,7 @@ ul {
     bottom: 215px;
     left: 265px;
 }
-.photoVig5 {
+.S1photoVig5 {
     position: relative;
     bottom: 30px;
     border: solid white 5px;
@@ -542,7 +565,7 @@ ul {
 	height: 140px;
     order: 1;
 }
-.titleVig5 {
+.S1titleVig5 {
     align-self: flex-start;
     position: relative;
     bottom : 60px;
@@ -553,17 +576,17 @@ ul {
     width: 230px;
     font-family:'Raleway-Bold';
 }
-.prixVig5 {
+.S1prixVig5 {
     display: flex;
     align-self: flex-start;
-    flex-flow: nowrap column;
+    flex-flow: nowrap row;
     margin-left: 15px;
     order: 3;
     position: relative;
     bottom: 85px;
 }
 
-.note5  {
+.S1note5  {
     display: flex;
     font-size: 14px;
 
@@ -574,79 +597,501 @@ ul {
     order: 4;
     color: #0065FC;
 }
-.note5Not {
+.S1note5Not {
     color: #c7c3c3;
 }
 /*Vignette6*/
 
-.vignette6 {
+.S1vignette6 {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    align-self:baseline;
+    align-self:flex-end;
     align-items: center;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 275px;
     width: 225px;
     max-height: 210px;
     border: solid white 5px;
+    background-color: white;
     border-top: none;
     border-radius: 0px 0px 20px 20px;    
-    background-color: white;
     position: relative;
     left: 265Px;
-    bottom: 349px;
+    bottom: 339px;
 
    
 }
-.photoVig6 { 
-    position: relative;
-    bottom: 239px;
-    right: 60px;
+.S1photoVig6 { 
     border: solid white 5px;
     border-radius: 20px 20px 0px 0px;
+    border-bottom: none;
     width: 225px;
 	height: 140px;
     order: 1;
+    position: relative;
+    right: 60px;
+    bottom: 225px;
+    
+    
 }
-.titleVig6 {
+.S1titleVig6 {
     align-self: flex-start;
     font-size: 16px;
     margin-left: 15px;
-    padding-top: 1px;
+    padding-top: 10px;
     order: 2;
     width: 230px;
     font-family:'Raleway-Bold';
     position: relative;
-    top: 124px;
+    top: -18px;
 }
-.prixVig6 {
+.S1prixVig6 {
     display: flex;
     align-self: flex-start;
-    flex-flow: nowrap column;
+    flex-flow: wrap row;
     margin-left: 15px;
     order: 3;
     position: relative;
-    top: 110px;
+    bottom: 23px;
+    max-height: 25px;
     
 }
 
-.note6  {
+.S1note6  {
     display: flex;
     font-size: 14px;
 
     position: relative;
-    bottom: 220px;
-    right: 40px;px;
+    bottom: 206px;
+    right: 40px;
 
     
     order: 4;
     color: #0065FC;
 }
+.S1prixBold {
+    margin-left: 5px;
+    font-family: 'Raleway-Bold';
 
-/*<Section 1*/
+}
+/*Section 1*/
+
+/*Section 2*/
+
+#section2 {
+    display: flex;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  border: solid white 1px;
+  border-radius: 30px;
+  max-width: 380px;
+  height: 700px;
+
+  position: relative;
+  left: 920px;
+  bottom: 902px;
+}
+.titleS2 {
+    display: block;
+    flex-wrap: wrap;
+    background-color: #0e0202);
+    height: 20%;
+    font-size: 22px;
+    font-family: 'Raleway-Bold';
+    margin-left: 30px;
+}
+.iconsS2 {
+    margin-left: 90px;
+    font-size: 25px;
+}
+/*Vignette 1*/
+
+.S2vignette1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border: solid white 5px;
+    border-radius: 20px;
+    max-width: 330px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -73px;
+    max-height: 155px;
+}
+.S2note1 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+    font-size: 14px;
+    color: #0065fc;
+    order: 4;
+    position: relative;
+    right: 100px;
+    top: 5px;
+    
+}
+.S2prixVig1 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self:flex-end;
+    justify-content: flex-end;
+    font-size: 14px;
+    order: 3;
+    position: relative;
+    right: 85px;
+    bottom: 15px;
+    
+}
+.S2titleVig1 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+    justify-content: flex-end;
+    font-size: 17px;
+    font-family: 'Raleway-Bold';
+    order: 2;
+    position: relative;
+    right: 80px;
+    
+}
+.S2photoVig1 {
+    width: 115px;
+	height: 150px;
+    position: relative;
+    right: 40px;
+    bottom: 15px;
+    order: 1;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+/*Vignette 2*/
+
+.S2vignette2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border: solid white 5px;
+    border-radius: 20px;
+    max-width: 330px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 35px;
+    max-height: 155px;
+}
+.S2note2 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+    font-size: 14px;
+    color: #0065fc;
+    order: 4;
+    position: relative;
+    right: 100px;
+    top: 5px;
+    
+}
+.S2prixVig2 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self:flex-end;
+    justify-content: flex-end;
+    font-size: 14px;
+    order: 3;
+    position: relative;
+    right: 93px;
+    bottom: 15px;
+    
+}
+.S2titleVig2 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+    justify-content: flex-end;
+    font-size: 17px;
+    font-family: 'Raleway-Bold';
+    order: 2;
+    position: relative;
+    right: 73px;
+    
+}
+.S2photoVig2 {
+    width: 115px;
+	height: 150px;
+    position: relative;
+    right: 40px;
+    bottom: 15px;
+    order: 1;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+/*Vignette 3*/
+
+.S2vignette3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border: solid white 5px;
+    border-radius: 20px;
+    max-width: 330px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 35px;
+    max-height: 155px;
+}
+.S2note3 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+    font-size: 14px;
+    color: #0065fc;
+    order: 4;
+    position: relative;
+    right: 100px;
+    top: 5px;
+    
+}
+.S2prixVig3 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self:flex-end;
+    justify-content: flex-end;
+    font-size: 14px;
+    order: 3;
+    position: relative;
+    right: 84px;
+    bottom: 15px;
+    
+}
+.S2titleVig3 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+    justify-content: flex-end;
+    font-size: 17px;
+    font-family: 'Raleway-Bold';
+    order: 2;
+    position: relative;
+    right: 76px;
+    
+}
+.S2photoVig3 {
+    width: 115px;
+	height: 150px;
+    position: relative;
+    right: 40px;
+    bottom: 15px;
+    order: 1;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+.S2prixBold {
+    margin-left: 5px;
+    font-family: 'Raleway-Bold';
+}
+/*Section 3*/
+
+#section3 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 570px;
+    margin-left: 32px;
+    margin-right: 32px;
+    position: relative;
+    bottom: 850px;
+}
+.titleS3 {
+    font-family: 'Raleway-Bold';
+}
+/*Vignette1*/
+
+.S3vignette1{
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    width: 280px;
+    border-radius: 20px ;
+    background-color: white;
+    border: solid 1px gainsboro;
+    margin-right: 30px;
+}
+.S3photoVig1 {
+    height: 380px ;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    bottom: 16px;
+    right: 40px;
+}
+.S3titleVig1 {
+    font-family: 'Raleway-Bold';
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    bottom: 27px;
+}
+/*Vignette2*/
+
+.S3vignette2 {
+    display: flex;
+    flex-direction: column;
+    margin-top:68px;
+    width: 280px;
+    height: 210px;
+    border: solid 1px gainsboro;
+    border-radius: 20px ;
+    background-color: white;
+    margin-right: 20px;
+}
+.S3photoVig2 {
+    height:160px ;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    bottom: 17px;
+    right: 40px;
+}
+.S3titleVig2 {
+    font-family: 'Raleway-Bold';
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+/*Vignette3*/
+
+.S3vignette3 {
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    width: 280px;
+    height: 200px;
+    border: solid 1px gainsboro;
+    border-radius: 20px ;
+    background-color: white;
+}
+.S3photoVig3 {
+    height:140px ;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    bottom: 17px;
+    right: 40px;
+}
+.S3titleVig3 {
+    font-family: 'Raleway-Bold';
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+/*Vignette4*/
+
+.S3vignette4{
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    width: 280px;
+    border-radius: 20px ;
+    background-color: white;
+    border: solid 1px gainsboro;
+    margin-top: 70px;
+    margin-right: 30px;
+}
+.S3photoVig4 {
+    height: 380px ;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    bottom: 16px;
+    right: 40px;
+}
+.S3titleVig4 {
+    font-family: 'Raleway-Bold';
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    bottom: 27px;
+}
+/*Vignette5*/
+
+.S3vignette5 {
+    display: flex;
+    flex-direction: column;
+    margin-top:68px;
+    width: 280px;
+    height: 210px;
+    border: solid 1px gainsboro;
+    border-radius: 20px ;
+    background-color: white;
+}
+.S3photoVig5 {
+    height:160px ;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    bottom: 17px;
+    right: 40px;
+}
+.S3titleVig5 {
+    font-family: 'Raleway-Bold';
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+/*Vignette6*/
+
+.S3vignette6 {
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    width: 280px;
+    height: 200px;
+    border: solid 1px gainsboro;
+    border-radius: 20px ;
+    background-color: white;
+}
+.S3photoVig6 {
+    height:140px ;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    bottom: 17px;
+    right: 40px;
+}
+.S3titleVig6 {
+    font-family: 'Raleway-Bold';
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+    bottom: 30px;
+}
+
+
+
 /*Footer*/
-footer {
+#footer {
+    display: flex;
+    flex-flow: column wrap;
     background-color: #f2f2f2;
+    height: 140px;
+    padding-left: 40px;
+    margin-top: -800px;
+  
   }
+.titleFooter {
+    display: flex;
+    font-family: 'Raleway-Bold';
+    font-size: 19px;
+    margin-top: 30px;
+}
+.h3Footer {
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+}
 /*<Footer*/
