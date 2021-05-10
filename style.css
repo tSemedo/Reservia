@@ -1112,10 +1112,11 @@ ul {
         {
             display: flex;
             flex-direction: column;
+            align-items: center;
             justify-content: flex-start;
         }
     /*HEADER*/
-    #topSection
+    header
         {
             display: flex;
             flex-direction: column;  
@@ -1254,11 +1255,12 @@ ul {
             display: flex;
             flex-flow: column nowrap;
             margin-top: 840px;
-            margin-left: -929px; 
-            width: 490px;               
+            margin-left: -1855px; 
+            width: 510px;               
             min-width: 480px;  
             max-width: none; 
             border-radius: 0px;
+            border: black solid 1px;
             order: 2
         } 
     .titleS2
@@ -1328,6 +1330,7 @@ ul {
             flex-flow: column nowrap;       
             margin-bottom: 2000px;   
             margin-top: -850px;
+            margin-left: 70px;
             background-color: white;
             width: 490px; 
             min-width: 480px;
@@ -1581,11 +1584,11 @@ ul {
             height: auto;
             width: 490px; 
             order: 4; 
-            margin-top: 0px;      
+            margin-top: 0px; 
+            margin-left: 110px;     
         }
     .titleS3
-        {   
-            margin-left: -13px;
+        {   margin-left: -13px;
             font-size: 27px;
         }
     /*Vignette N°1*/
@@ -1674,12 +1677,14 @@ ul {
         {
             display: flex;
             flex-flow: column nowrap;
-            margin-left: -10px;
+            margin-left: 5px;
             padding-bottom: 50px;
             height: auto;
             width: 490px;               
             min-width: 480px;  
             order: 5;
+            border: black solid 1px;
         }    
 }
+
 
