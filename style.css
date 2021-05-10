@@ -1106,7 +1106,7 @@ ul {
 
 /*Media Queries*/
 
-@media all and (max-width: 1024px)
+@media all and (max-device-width: 480px)
 {   
     body 
         {
@@ -1115,10 +1115,11 @@ ul {
             justify-content: flex-start;
         }
     /*HEADER*/
-    header
+    #topSection
         {
             display: flex;
-            flex-direction: column;             
+            flex-direction: column;  
+            width: 490px;         
         }
     ul 
         {
@@ -1170,12 +1171,13 @@ ul {
     /*NAV*/
     #menu
         {
-            width: auto;           
+            width: 490px;           
         }
     .menu_1
         {
             margin-top: -30px;
-            margin-bottom: 20px;          
+            margin-bottom: 20px;  
+            width: 450px;        
         }
     #menu2_
         {
@@ -1201,7 +1203,23 @@ ul {
             border: grey solid 1px;
             border-radius: 13px  13px 13px 13px ;
             cursor: pointer;
-        }        
+        } 
+    .menu_3
+        {
+            display: flex;
+            width: 390px;
+            font-size: 17px;
+        } 
+    .infoScreen1
+        {
+            display: flex;
+            margin-right: 10px;
+            height: 25px;
+            width: 26px;
+            position: relative;
+            font-size: 25px;
+            
+        }      
     .menu_4
         {
             display: flex;
@@ -1237,7 +1255,7 @@ ul {
             flex-flow: column nowrap;
             margin-top: 840px;
             margin-left: -929px; 
-            width: 100%;               
+            width: 490px;               
             min-width: 480px;  
             max-width: none; 
             border-radius: 0px;
@@ -1311,7 +1329,7 @@ ul {
             margin-bottom: 2000px;   
             margin-top: -850px;
             background-color: white;
-            width: 100%;
+            width: 490px; 
             min-width: 480px;
             order: 3;
         }
@@ -1323,7 +1341,7 @@ ul {
     .title_2_S1
         {
             font-size: 20px;
-            margin-left: -15px;
+            margin-left: 0px;
             position: relative;
             top: -300px;
         }
@@ -1515,7 +1533,7 @@ ul {
             margin-left: -280px;
             margin-top: 303px;       
             min-width: 350px;
-            border: solid 1px #f2f2f2;
+            border: solid 1px black;
             border-top: none;
             background-color: white;
             box-shadow: 7px 8px 13px #f2f2f2;
@@ -1554,15 +1572,104 @@ ul {
         {
             font-size: 16px;
             margin-top: 30px;          
-        }    
+        }  
+
     #section3 
         {   
             display: flex;
             flex-flow: column nowrap;
             height: auto;
-            order: 4;
-       
+            width: 490px; 
+            order: 4; 
+            margin-top: 0px;      
         }
+    .titleS3
+        {   
+            margin-left: -13px;
+            font-size: 27px;
+        }
+    /*Vignette N°1*/
+    .S3vignette1
+        {   margin-left: -17px;
+            width: 435px; 
+            height: 230px;
+        }
+    .S3photoVig1
+        {
+            width: 435px;
+            height: 170px;
+        }
+    /*Vignette N°2*/
+    .S3vignette2
+        {   
+            margin-left: -17px;
+            width: 435px; 
+            height: 230px;
+        }
+    .S3photoVig2
+        {
+            width: 435px;
+            height: 170px;
+        }
+    /*Vignette N°3*/
+    .S3vignette3
+        {   
+            margin-left: -17px;
+            width: 435px; 
+            height: 230px;
+        }
+    .S3photoVig3
+        {
+            width: 435px;
+            height: 170px;
+        }
+    /*Vignette N°4*/
+    .S3vignette4
+        {   
+            margin-left: -17px;
+            width: 435px; 
+            height: 230px;
+        }
+    .S3photoVig4
+        {
+            width: 435px;
+            height: 170px;
+        }
+    /*Vignette N°5*/
+    .S3vignette5
+        {   
+            margin-left: -17px;
+            width: 435px; 
+            height: 230px;
+        }
+    .S3photoVig5
+        {
+            width: 435px;
+            height: 170px;
+        }
+    /*Vignette N°6*/
+    .S3vignette6
+        {   
+            margin-left: -17px;
+            width: 435px; 
+            height: 230px;
+        }
+    .S3photoVig6
+        {
+            width: 435px;
+            height: 170px;
+        }
+
+
+
+
+
+
+
+
+
+
+
     #footer 
         {
             display: flex;
@@ -1570,7 +1677,7 @@ ul {
             margin-left: -10px;
             padding-bottom: 50px;
             height: auto;
-            width: 100%;               
+            width: 490px;               
             min-width: 480px;  
             order: 5;
         }    
