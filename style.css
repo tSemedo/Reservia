@@ -1114,80 +1114,109 @@ ul {
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
+            
         }
     /*HEADER*/
-    header
+    #topSection
         {
             display: flex;
             flex-direction: column;  
-            width: 490px;         
-        }
-    ul 
-        {
-            font-size: 21px;
+            align-items: center;
+            width: 1062px;  
+            margin-left: 160px             
         }
     .element_1 
         {
-            display: block;
-            margin-bottom: 10px;       
+            display: flex;
+            align-self: flex-start; 
+            margin-left: 40px;             
+        }
+    .logo1
+        {
+            width: 270px;
+            height: 100px;
         }
     .element_2
         {
             display: flex;
             align-self: flex-start;
-            width: auto;
+            font-size: 21px;
         }
     .element_3
         {  
-            padding-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+            padding: 0px;
             border-top: none;
-            border-bottom: 4px solid ;
-            padding-right: 40px;
-            padding-left: 80px;
-            position: relative;
-            right: 60px; 
-            margin-right: 0px;
-            width: auto;
+            padding-bottom: 25px;
+            border-bottom: solid 7px;
+            margin-left: -80px;
+            margin-top: 40px;
+            width: 545px;
+                 
         }
     .element_4 
-        {  
-            padding-bottom: 15px;
-            border-bottom: 3px solid;
-            border-color: rgb(231, 229, 229);
-            padding-right: 80px;
-            padding-left: 70px;
-            position: relative;
-            right: 60px; 
-            margin-left: 0px;
-            width: auto;
+        {   display: flex;
+            justify-content: center;
+            font-size: 50px;
+            padding-bottom: 25px;
+            border-bottom: 7px solid;
+            border-color: rgb(231, 229, 229);            
+            margin-top: -10px;
+            margin-left: -20px;
+            margin-right: 0px;
+            padding-right: 0px;
+            width: 540px;
         }
     .element_5
-        {
+        {   
             display: flex;
-            align-self: flex-end;
-            position: relative;
-            bottom: 120px;
-            right: 210px;         
+            font-size: 45px;
+            margin-top: -140px;
+            margin-left: -240px;                    
         }    
     /*NAV*/
     #menu
         {
-            width: 490px;           
+            width: 860px;             
+            margin-top: 80px;
+            margin-left: 0px;   
+            height: 1500px;   
         }
     .menu_1
         {
+            font-size: 60px;
             margin-top: -30px;
             margin-bottom: 20px;  
-            width: 450px;        
+            width: 790px;        
+        }
+    .p1
+        {
+            font-size: 45px;
         }
     #menu2_
         {
             margin-top: -25px;
             margin-left: 0px;
+            
+        }
+    .i1
+        {
+            font-size: 45px;
+            padding: 45px;
+            padding-right: 65px;
+            border-radius: 40px 0px 0px 40px;
         }
     .menu2_2 
         {
-            font-size: 20px;
+            font-size: 45px;
+            padding-left: 40px;
+            width: 530px;
+            height: 129px;
+            margin-top: 1px;
+            border-color: #afaeae;
+            z-index: 1;
         }
     .menu2_3 
         {
@@ -1195,496 +1224,727 @@ ul {
         }
     .menu2_3_ 
         {
-            display: flex;                
-            margin-left: -5px;
-            padding: 11.5px;
+            display: flex; 
+            justify-content: center;
+            align-items:center ;               
+            margin-left: -30px;
+            padding-left: 70px;
+            padding-right: 70px;
             background-color: #0065FC;
-            font-size: 18px;
+            font-size: 50px;
             color: white;
             border: grey solid 1px;
-            border-radius: 13px  13px 13px 13px ;
+            border-radius: 45px ;
             cursor: pointer;
+            width: 115px;
+            z-index: 2;
         } 
     .menu_3
         {
             display: flex;
-            width: 390px;
-            font-size: 17px;
+            width: 850px;
+            font-size: 40px;
+            margin-top: 100px;
         } 
     .infoScreen1
         {
             display: flex;
-            margin-right: 10px;
-            height: 25px;
-            width: 26px;
+            justify-content: center;
+            align-items: center;
+            margin-right: 25px;
+            height: 48px;
+            width: 48px;
+            border: 3px solid #dad9d9;
             position: relative;
-            font-size: 25px;
+            font-size: 50px;
             
-        }      
+        } 
+    /**/     
     .menu_4
         {
             display: flex;
             flex-flow: column wrap;
             align-items: flex-start;
-            width: auto;
+            width: 900px;
+        } 
+    .tailleText1
+        {
+            font-size: 40px ;
+        } 
+    .i
+        {
+            font-size: 40px;
+            padding: 43px;
+            margin-left: -3px;
+            
+            
         }
-     /**/
     .menu_5
         {
+            margin-top: 15px;
             margin-left: 0px;
+            font-size: 40px;
+            padding: 37px;
+            padding-left: 0px ;
+            border: solid 5px #dad9d9;
+            border-radius: 70px;
+            border-left: none;
+            
         }
     .menu_6
         {
-            margin-left: 175px;
-            margin-top: -44px;
-            margin-bottom: 12px ;                
+            margin-left: 505px;
+            margin-top: -125px;
+            margin-bottom: 12px ;  
+            font-size: 40px;
+            padding: 37px;
+            padding-left: 0px ;
+            border: solid 5px #dad9d9;
+            border-radius: 70px;
+            border-left: none;  
+                      
         }
     .menu_7 
         {
+            margin-top: 30px;
             margin-bottom: 12px;
+            font-size: 40px;
+            padding: 37px;
+            padding-left: 0px ;
+            border: solid 5px #dad9d9;
+            border-radius: 70px;
+            border-left: none;
         }
     .menu_8 
         {
             margin-bottom: 16px;
+            margin-top: 30px;
+            font-size: 40px;
+            padding: 37px;
+            padding-left: 0px ;
+            border: solid 5px #dad9d9;
+            border-radius: 70px;
+            border-left: none;
+            
         }
-
+    
     /*Section 2 */
     
     #section2 
         {
             display: flex;
             flex-flow: column nowrap;
-            margin-top: 840px;
-            margin-left: -1855px; 
-            width: 510px;               
+            margin-top: 650px;
+            margin-left: -1735px; 
+            width: 1120px;             
             min-width: 480px;  
             max-width: none; 
+            height: 1520px;
             border-radius: 0px;
-            border: black solid 1px;
-            order: 2
+            order: 2;            
         } 
     .titleS2
         {
-            font-size: 27px;
+            font-size: 60px;
+            margin-left: 70px;
+            margin-bottom: 110px;
         }
     .iconsS2 
         {
-            margin-left: 150px;
+            font-size: 65px;
+            margin-left: 310px;
         }
+    /*Vignette 1*/
     .S2vignette1
         {
-            margin-left: 15px;
+            margin-left: 90px;
+            margin-bottom: 40px;
+            margin-top: -230px;
             max-height: none;
-            height: 175px;
-            min-width: 450px;
-            border: rgb(230, 228, 228) solid 0.5px;
+            max-width: none;
+            height: 376px;           
+            width: 930px;            
+            border-radius: 60px;
         }
     .S2photoVig1
         {
             border-radius: 18px 0px 0px 18px;
             border:rgb(172, 171, 171) solid 0.5px;
+            border-radius: 60px 0px 0px 60px;
             margin-right: none;
-            margin: 6px;
-            width: 160px;
-            height: 160px;
+            margin: 7px;
+            width: 360px;
+            height: 360px;
         }
-    .S2vignette2
+    .S2titleVig1
         {
-            margin-left: 15px;
+            font-size: 50px ;
+            height:50px ;   
+            margin-top: 20px;         
+        }
+    .S2prixVig1
+        {
+            margin-top: 70px;
+            margin-right: 30px;
+            font-size: 40px ;
+            height: 30px
+        }
+    .S2note1
+        {
+            font-size: 35px ;
+            height: 10px    ;
+            margin-right: 200px  ;
+        }
+    /*Vignette 2 */
+    .S2vignette2
+        {           
+            margin-left: 90px;
+            margin-bottom: 40px;
             max-height: none;
-            height: 175px;
-            min-width: 450px;
-            border: rgb(230, 228, 228) solid 0.5px;
+            max-width: none;
+            height: 376px;           
+            width: 930px;            
+            border-radius: 60px; 
         }
     .S2photoVig2
         {
             border-radius: 18px 0px 0px 18px;
             border:rgb(172, 171, 171) solid 0.5px;
+            border-radius: 60px 0px 0px 60px;
             margin-right: none;
-            margin: 6px;
-            width: 160px;
-            height: 160px;
+            margin: 7px;
+            width: 360px;
+            height: 360px;
         }
+    .S2titleVig2
+        {
+            margin-left: 55px  ;
+            margin-top: 20px;
+            font-size: 50px ;
+            height:50px ;            
+        }
+    .S2prixVig2
+        {
+            margin-top: 70px;
+            margin-right: 60px;
+            font-size: 40px ;
+            height: 30px;
+        }
+    .S2note2
+        {
+            font-size: 35px ;
+            height: 10px    ;
+            margin-right: 215px  ;
+        }
+    /*Vignette 3*/
     .S2vignette3
         {
-            margin-left: 15px;
+            margin-left: 90px;
+            margin-bottom: 50px;
             max-height: none;
-            height: 175px;
-            min-width: 450px;
-            border: rgb(230, 228, 228) solid 0.5px;
+            max-width: none;
+            height: 376px;           
+            width: 930px;            
+            border-radius: 60px; 
         }
     .S2photoVig3
         {
             border-radius: 18px 0px 0px 18px;
             border:rgb(172, 171, 171) solid 0.5px;
+            border-radius: 60px 0px 0px 60px;
             margin-right: none;
-            margin: 6px;
-            width: 160px;
-            height: 160px; 
+            margin: 7px;
+            width: 360px;
+            height: 360px; 
+        }
+    .S2titleVig3
+        {
+            margin-left: 55px  ;
+            margin-top: 20px;
+            font-size: 50px ;
+            height:50px ;
+        }
+    .S2prixVig3
+        {
+            margin-top: 70px;
+            margin-right: 60px;
+            font-size: 40px ;
+            height: 30px;
+        }
+    .S2note3
+        {
+            font-size: 35px ;
+            height: 10px    ;
+            margin-right: 210px  ; 
         }
     /*Section 1*/
 
     #section1
         {	
             display: flex;
-            flex-flow: column nowrap;       
+            flex-flow: column nowrap;    
             margin-bottom: 2000px;   
             margin-top: -850px;
-            margin-left: 70px;
-            background-color: white;
-            width: 490px; 
+            background-color: white;                      
+            width: 900px; 
             min-width: 480px;
+            max-height: none;           
             order: 3;
         }
     .titleS1
         {
-            margin-left: -10px;
-            font-size: 27px;
+            margin-left: 0px;
+            font-size: 60px;
         }
     .title_2_S1
         {
-            font-size: 20px;
-            margin-left: 0px;
+            font-size: 45px;
+            margin-left: 5px;
             position: relative;
-            top: -300px;
+            top: -250px;
         }
 
     /*VIgnette N°1*/
     #S1vignette1 
         {    
             margin-top: 20px;    
-            margin-left: 310px;
+            margin-left: 345px;
             padding-bottom: 27px;
             min-width: 350px;
             border: solid 1px #f2f2f2;
             background-color: rgb(255, 255, 255);
+            border-radius: 50px;
             box-shadow: 7px 8px 13px #f2f2f2;
-            width: 435px;
-            height: auto; 
+            width: 945px;
+            max-height: none;           
         }
     .S1photoVig1
         {
             border: 1px solid rgb(238, 236, 236);
-            width: 425px;
-            height: 150px;
+            border-radius: 50px 50px 0px 0px;
+            width: 925px;
+            height: 330px;
+            max-height: none;
+            margin-top: 25px;
         }
      .S1titleVig1
         {
             width: auto;
-            font-size: 22px;
+            font-size: 50px;
             height: 20px;
+            margin-left: 30px;
         }
     .S1prixVig1
         {
-            font-size: 18px;
+            font-size: 40px;
             height: 17px;
+            margin-left: 30px;
         }
     .S1note1
         {
-            font-size: 16px;
-            margin-left: -158px;
+            font-size: 35px;
+            margin-left: -530px;
+            margin-bottom: -80px;
         }
     /*VIgnette N°2*/
     .S1vignette2
         {
-            margin-left: -310px;
+            margin-left: -275px;
             margin-top: 270px;
             padding-bottom: 27px;
-            margin-bottom: 15px;
+            
             min-width: 350px;
             border: solid 1px #f2f2f2;
             background-color: white;
             box-shadow: 7px 8px 13px #f2f2f2;
-            width: 435px;
-            height: auto;       
+            border-radius: 50px;
+            width: 945px;
+            max-height: none;
+                   
         }
     .S1photoVig2
-        {
+        {            
             border: 1px solid rgb(238, 236, 236);
-            width: 425px;
-            height: 150px;
+            border-radius: 50px 50px 0px 0px;
+            width: 925px;
+            height: 330px;
+            max-height: none;
+            margin-top: 25px;
         }
     .S1titleVig2
         {
             width: auto;
-            font-size: 22px;
+            font-size: 50px;
             height: 20px;
+            margin-left: 30px;
         }
     .S1prixVig2
         {
-            font-size: 18px;
+            font-size: 40px;
             height: 17px;
+            margin-left: 30px;
         }
     .S1note2
         {
-            font-size: 16px;
-            margin-left: -158px;
+            font-size: 35px;
+            margin-left: -530px;
+            margin-bottom: -80px;
         }
     /*VIgnette N°3*/
     .S1vignette3 
         {
-            margin-left: -300px;
+            
+            margin-left: -265px;
             padding-bottom: 27px;
             margin-bottom: 20px;
             min-width: 350px;
             border: solid 1px #f2f2f2;
             background-color: white;
+            border-radius: 50px;
             box-shadow: 7px 8px 13px #f2f2f2;
-            width: 435px;        
-            height: auto;
+            width: 945px;        
+            max-height: none;
         }
     .S1photoVig3
-        {
+        {            
             border: 1px solid rgb(238, 236, 236);
-            width: 425px;
-            height: 150px;
+            border-radius: 50px 50px 0px 0px;
+            width: 925px;
+            height: 330px;
+            max-height: none;
+            margin-top: 25px;
         }
     .S1titleVig3
         {
             width: auto;
-            font-size: 22px;
+            font-size: 50px;
             height: 20px;
+            margin-left: 30px;
         }
     .S1prixVig3
         {
-            font-size: 18px;
+            font-size: 40px;
             height: 17px;
+            margin-left: 30px;
         }
     .S1note3
         {
-            font-size: 16px;
-            margin-left: -158px;
+            font-size: 35px;
+            margin-left: -530px;
+            margin-bottom: -80px;
         }
     /*VIgnette N°4*/
     .S1vignette4
         {
-            margin-left: 495px;
+            margin-left: 530px;
             margin-top: -240px;
             padding-bottom: 27px;
             min-width: 350px;
             border: solid 1px #f2f2f2;
             background-color: white;
+            border-radius: 50px;
             box-shadow: 7px 8px 13px #f2f2f2;
-            width: 435px; 
-            height: auto;        
+            width: 945px; 
+            max-height: none;       
         }
     .S1photoVig4
-        {
+        {           
             border: 1px solid rgb(238, 236, 236);
-            width: 425px;
-            height: 150px;
+            border-radius: 50px 50px 0px 0px;
+            width: 925px;
+            height: 330px;
+            max-height: none;
+            margin-top: 25px;
         }
     .S1titleVig4
         {
             width: auto;
-            font-size: 22px;
+            font-size: 50px;
             height: 20px;
+            margin-left: 30px;
         }
     .S1prixVig4
         {
-            font-size: 18px;
+            font-size: 40px;
             height: 17px;
+            margin-left: 30px;
         }
     .S1note4
         {
-            font-size: 16px;
-            margin-left: -158px;
+            font-size: 35px;
+            margin-left: -530px;
+            margin-bottom: -80px;
         }
     /*VIgnette N°5*/
     .S1vignette5
         {
             margin-top: 270px;
-            margin-left: -280px;
+            margin-left: -245px;
             margin-bottom: 0px;
             padding-bottom: 27px;
             min-width: 350px;
             border: solid 1px #f2f2f2;
             background-color: white;
+            border-radius: 50px;
             box-shadow: 7px 8px 13px #f2f2f2;
-            width: 435px;   
-            height: auto;      
+            width: 945px;   
+            max-height: none;     
         }
     .S1photoVig5
-        {
+        {           
             border: 1px solid rgb(238, 236, 236);
-            width: 425px;
-            height: 150px;
+            border-radius: 50px 50px 0px 0px;
+            width: 925px;
+            height: 330px;
+            max-height: none;
+            margin-top: 25px;
         }
     .S1titleVig5
         {
             width: auto;
-            font-size: 22px;
+            font-size: 50px;
             height: 20px;
+            margin-left: 30px;
         }
     .S1prixVig5
         {
-            font-size: 18px;
+            font-size: 40px;
             height: 17px;
+            margin-left: 30px;
         }
     .S1note5
         {
-            font-size: 16px;
-            margin-left: -158px;
+            font-size: 35px;
+            margin-left: -530px;
+            margin-bottom: -80px;
         }
     /*VIgnette N°6*/
     .S1vignette6
         {
             display: flex;
             align-self: flex-start;
-            justify-content: none;
-            padding-bottom: 27px;
-            margin-left: -280px;
-            margin-top: 303px;       
+            justify-content: flex-start;
+            margin-left: -265px;
+            margin-top: 500px;       
             min-width: 350px;
-            border: solid 1px black;
+            border: solid 1px #f2f2f2;
             border-top: none;
+            border-radius: 0px 0px 50px 50px;
             background-color: white;
             box-shadow: 7px 8px 13px #f2f2f2;
-            width: 435px;       
+            width: 945px;
+            max-height: none;             
+            height: 270px;
+            position: relative;
+            left: 260px;
+               
         }
     .S1photoVig6
-        {  
-            margin-left: 5px;
+        {  display: flex;
+            margin-left: -11px;
             border: 1px solid rgb(238, 236, 236);
+            border-radius: 50px 50px 0px 0px;
             border-bottom: none;
-            padding: 4px;
-            width: 425px;
-            height: 150px;
-            margin-bottom: 0px ;
-            display: block;
-            position: relative;
-            bottom: 235px;   
+            box-shadow: 7px 0px 13px #f2f2f2;            
+            padding: 10px;
+            width: 925px;
+            height: 330px;
+            margin-top: -345px;
+            order: 1;
+             
         }
     .S1titleVig6
         {
-            margin-bottom: -1px;
+            display: flex;
             width: auto;
-            font-size: 22px;
+            margin-left: 30px;
+            margin-top: 0px;
+            padding-top: 50px;
+            font-size: 50px;
             height: 20px;
-            display: block;          
+            order: 2;
+                      
         }
     .S1prixVig6
         {
-            display: block;
-            position: relative;
-            bottom: 7px;
-            font-size: 18px;
+            display: flex;
+            margin-left: 30px;
+            font-size: 40px;
             height: 17px;
+            margin-top: 20px;
+            
+            order: 3;
         }
     .S1note6
         {
-            font-size: 16px;
-            margin-top: 30px;          
+            display: flex;
+            font-size: 35px;
+            height: 10px;     
+            margin-top: 110px;  
         }  
-
+    /*Section 3*/
     #section3 
         {   
             display: flex;
             flex-flow: column nowrap;
             height: auto;
-            width: 490px; 
+            width: 900px; 
             order: 4; 
-            margin-top: 0px; 
-            margin-left: 110px;     
+            margin-top: -1350px; 
+            margin-left: 110px;              
         }
     .titleS3
         {   margin-left: -13px;
-            font-size: 27px;
+            font-size: 60px;
         }
     /*Vignette N°1*/
     .S3vignette1
-        {   margin-left: -17px;
-            width: 435px; 
-            height: 230px;
+        {   
+            margin-left: -17px;
+            border-radius: 50px;
+            width: 945px; 
+            height: 510px;
+            margin-bottom: -10px;
         }
     .S3photoVig1
         {
-            width: 435px;
-            height: 170px;
+            width: 945px;
+            height: 370px;
+            border-radius: 50px 50px 0px 0px;
+        }
+    .S3titleVig1
+        {
+            margin-left: 20px;
+            font-size: 40px;
         }
     /*Vignette N°2*/
     .S3vignette2
         {   
             margin-left: -17px;
-            width: 435px; 
-            height: 230px;
+            border-radius: 50px;
+            width: 945px; 
+            height: 510px;
         }
     .S3photoVig2
         {
-            width: 435px;
-            height: 170px;
+            width: 945px;
+            height: 370px;
+            border-radius: 50px 50px 0px 0px;
+        }
+    .S3titleVig2
+        {
+            margin-left: 20px;
+            font-size: 40px;
         }
     /*Vignette N°3*/
     .S3vignette3
         {   
+            margin-top: 60px;
             margin-left: -17px;
-            width: 435px; 
-            height: 230px;
+            border-radius: 50px;
+            width: 945px; 
+            height: 510px;
         }
     .S3photoVig3
         {
-            width: 435px;
-            height: 170px;
+            width: 945px;
+            height: 370px;
+            border-radius: 50px 50px 0px 0px;
+        }
+    .S3titleVig3
+        {
+            margin-left: 20px;
+            font-size: 40px;
         }
     /*Vignette N°4*/
     .S3vignette4
         {   
+            margin-top: 60px;
             margin-left: -17px;
-            width: 435px; 
-            height: 230px;
+            border-radius: 50px;
+            width: 945px; 
+            height: 510px;
         }
     .S3photoVig4
         {
-            width: 435px;
-            height: 170px;
+            width: 945px;
+            height: 370px;
+            border-radius: 50px 50px 0px 0px;
+        }
+    .S3titleVig4
+        {
+            margin-left: 20px;
+            font-size: 40px;
         }
     /*Vignette N°5*/
     .S3vignette5
         {   
+            margin-top: 60px;
             margin-left: -17px;
-            width: 435px; 
-            height: 230px;
+            border-radius: 50px;
+            width: 945px; 
+            height: 510px;
         }
     .S3photoVig5
         {
-            width: 435px;
-            height: 170px;
+            width: 945px;
+            height: 370px;
+            border-radius: 50px 50px 0px 0px;
+        }
+    .S3titleVig5
+        {
+            margin-left: 20px;
+            font-size: 40px;
         }
     /*Vignette N°6*/
     .S3vignette6
         {   
+            margin-top: 60px;
             margin-left: -17px;
-            width: 435px; 
-            height: 230px;
+            margin-bottom: 100px;
+            border-radius: 50px;
+            width: 945px; 
+            height: 510px;
         }
     .S3photoVig6
         {
-            width: 435px;
-            height: 170px;
+            width: 945px;
+            height: 370px;
+            border-radius: 50px 50px 0px 0px;
         }
-
-
-
-
-
-
-
-
-
-
-
+    .S3titleVig6
+        {
+            margin-left: 20px;
+            font-size: 40px;
+        }
     #footer 
         {
             display: flex;
+            align-self: flex-start;
+            justify-content: flex-start;
             flex-flow: column nowrap;
-            margin-left: 5px;
-            padding-bottom: 50px;
-            height: auto;
-            width: 490px;               
+            margin-left: -9px;
+            margin-bottom: -10px;
+            padding-bottom: 30px;
+
+            height: 1300px;
+            border: #f2f2f2 solid 1px; 
+            width: 1062px;               
             min-width: 480px;  
-            order: 5;
-            border: black solid 1px;
-        }    
+            order: 5;                     
+        } 
+    .titleFooter
+        {
+            margin-top: 100px;
+            margin-left: 30px;
+            font-size: 60px;
+        }
+    .h3Footer
+        {
+            margin-left: 30px;
+            margin-bottom: 15px;
+            font-size: 45px;
+        }
 }
 
 
