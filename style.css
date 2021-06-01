@@ -286,9 +286,8 @@ body {
     width: 62%;
     max-width: 840px;       
     max-height: 673px;   
-    margin-top: -200px;
-    margin-right: 50px;
-    border: black 1px solid;
+    margin-top: -300px;
+    
 }
 
 /*Vignette1*/
@@ -678,9 +677,8 @@ body {
     border-radius: 30px;
     width: 400px;
     min-width: 400px;
-    height: 673px;
-    border: black 1px solid;
-    margin-left: 63.1%;
+    height: 673px;    
+    margin-left: auto;
     margin-top: -675px;
 }
 .titleS2 {
@@ -1363,12 +1361,55 @@ body {
     
 }
 
-@media all and (max-width: 1300px)
+@media all and (max-width: 1350px)
 {
     #section1
         {
             flex-flow: column wrap;
-            align-items: flex-end;
-            
-    
+            min-width: 620px;
+            width: 50%;
+            min-height: none   ;
+            max-height: 1000px;          
+        }
+    #S1vignette1
+        {
+            margin-left: 40px;
+            margin-top: 30px;
+        }   
+    .S1vignette2
+        {
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+    .S1vignette3
+        {
+            margin-left: 40px;
+            margin-top: 40px;
+            margin-bottom: 0px;
+        }
+    .S1vignette4
+        {
+            margin-top: 100px;
+            margin-bottom: 0px;
+            margin-left: -20px;
+        }
+    .S1vignette5
+        {
+            margin-left: 40px;
+            margin-top: 40px;
+            margin-left: -20px;
+        }
+    .S1vignette6
+        {
+            margin-left: 40px;
+            margin-top: 40px;
+            margin-left: -20px;
+        }
+
+    .title_2_S1
+        {
+            position: relative;
+            top: 4px;
+            left: -360px;
+        }
 }
