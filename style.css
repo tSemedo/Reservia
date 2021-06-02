@@ -255,13 +255,13 @@ body {
 /*Responsive*/
 #sectionResponsive {
     max-width: 1300px;
+    margin-right: 0px;
 }
 /*Section 1*/
 
 .titleS1 {
     display: block;
-    flex-wrap: wrap;
-    background-color: #0e0202);
+    flex-wrap: wrap;    
     height: 20%;
     font-family: 'Raleway-Bold';
     margin-left: 40px;
@@ -683,7 +683,6 @@ body {
 .titleS2 {
     display: block;
     flex-wrap: wrap;
-    background-color: #0e0202);
     height: 20%;
     font-size: 22px;
     font-family: 'Raleway-Bold';
@@ -1102,6 +1101,7 @@ body {
 
 @media all and (max-width: 480px)
 {   
+    /*topSection*/
     #topSection
         {
             flex-direction: column;  
@@ -1194,6 +1194,7 @@ body {
             margin-left: 5px;
             font-size: 22px;
             border-radius: 20px 0px 0px 20px;
+            border: black 1px solid;
         }
     .menu2_2 
         {
@@ -1233,7 +1234,7 @@ body {
         {
             display: flex;
             width: 450px;
-            font-size: 20px;
+            font-size: 19px;
             margin-top: 40px;
         } 
     .infoScreen1
@@ -1241,6 +1242,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-left: 6px;
             margin-right: 15px;
             margin-top: -5px;
             height: 28px;
@@ -1253,16 +1255,15 @@ body {
     /**/     
     .menu_4
         {
-            flex-flow: column wrap;
-            align-items: flex-start;
-            width: 80%;
-            max-width: 300px;
+            flex-flow: column wrap ;            
+            width: 80% ;
+            max-width: 300px ;
             
         } 
     .h2Menu
         {
             font-size: 23px ;
-            margin-left: -5px;
+            margin-left: 4px;
         } 
     .i
         {
@@ -1275,7 +1276,7 @@ body {
     .menu_5
         {
             margin-top: 15px;
-            margin-left: 0px;
+            margin-left: 9px;
             font-size: 18px;
             padding: 7px;
             padding-left: 0px ;
@@ -1288,7 +1289,7 @@ body {
         }
     .menu_6
         {
-            margin-left: 235px;
+            margin-left: 244px;
             margin-top: -60px;
             margin-bottom: 10px ;  
             font-size: 18px;
@@ -1302,6 +1303,7 @@ body {
         }
     .menu_7 
         {
+            margin-left: 9px;
             margin-top: 5px;
             margin-bottom: 0px;
             font-size: 18px;
@@ -1314,6 +1316,7 @@ body {
         }
     .menu_8 
         {
+            margin-left: 9px;
             margin-top: 15px;
             font-size: 18px;
             padding: 7px;
@@ -1323,51 +1326,336 @@ body {
             border-radius: 70px;
             border-left: none;            
         }
-    
+    /*Section 1*/
+    #section1
+        {
+            flex-flow: column nowrap; 
+            background-color: rgb(255, 255, 255);;
+            margin-top: 700px;
+                        
+            min-width: 400px;
+            max-height: none;           
+            order: ;
+        }
+    .titleS1
+        {
+            margin-left: -6px;
+        }
+    .title_2_S1
+        {
+            margin-left: -4px;
+            position: relative;
+            top:  30px;
+        }
+
+    /*Vig1*/
+    #S1vignette1 
+        {    
+            margin-top: 0px;    
+            margin-left: -4px;
+            width: 396px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            box-shadow: 7px 8px 13px #d8d7d7;
+            max-height: 230px;   
+            border: black 1px solid;        
+        }        
+    .S1photoVig1
+        {
+            border: 1px solid rgb(238, 236, 236);
+            border-radius:20px 20px 0px 0px;
+            width: 386px;
+            height: 140px;
+            max-height: none;
+            margin-top: 20px;
+            margin-bottom: 5px ;
+        }
+    .S1note1
+        {
+            margin-left: -128px;
+        }
+
+    /*Vig2*/
+    .S1vignette2 
+        {   
+            margin-top: 20px;    
+            margin-left: -4px;
+            width: 396px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            box-shadow: 7px 8px 13px #d8d7d7;
+            max-height: 230px;   
+            border: black 1px solid;        
+        }        
+    .S1photoVig2
+        {
+            border: 1px solid rgb(238, 236, 236);
+            border-radius:20px 20px 0px 0px;
+            width: 386px;
+            height: 140px;
+            max-height: none;
+            margin-top: 20px;
+            margin-bottom: 5px ;
+        }
+    .S1note2
+        {
+            margin-left: -128px;
+        }
+    /*Vig3*/
+    .S1vignette3 
+        {   
+            margin-top: 20px;    
+            margin-left: -4px;
+            width: 396px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            box-shadow: 7px 8px 13px #d8d7d7;
+            max-height: 230px;   
+            border: black 1px solid;        
+        }        
+    .S1photoVig3
+        {
+            border: 1px solid rgb(238, 236, 236);
+            border-radius:20px 20px 0px 0px;
+            width: 386px;
+            height: 140px;
+            max-height: none;
+            margin-top: 20px;
+            margin-bottom: 5px ;
+        }
+    .S1note3
+        {
+            margin-left: -128px;
+        }
+    /*Vig4*/
+    .S1vignette4 
+        {   
+            margin-top: -280px;    
+            margin-left: -4px;
+            width: 396px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            box-shadow: 7px 8px 13px #d8d7d7;
+            max-height: 230px;   
+            border: black 1px solid;        
+        }        
+    .S1photoVig4
+        {
+            border: 1px solid rgb(238, 236, 236);
+            border-radius:20px 20px 0px 0px;
+            width: 386px;
+            height: 140px;
+            max-height: none;
+            margin-top: 20px;
+            margin-bottom: 5px ;
+        }
+    .S1note4
+        {
+            margin-left: -128px;
+        }
+    /*Vig5*/
+    .S1vignette5 
+        {   
+            margin-top: 20px;    
+            margin-left: -4px;
+            width: 396px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            box-shadow: 7px 8px 13px #d8d7d7;
+            max-height: 230px;   
+            border: black 1px solid;        
+        }        
+    .S1photoVig5
+        {
+            border: 1px solid rgb(238, 236, 236);
+            border-radius:20px 20px 0px 0px;
+            width: 386px;
+            height: 140px;
+            max-height: none;
+            margin-top: 20px;
+            margin-bottom: 5px ;
+        }
+    .S1note5
+        {
+            margin-left: -128px;
+        }
+    /*Vig6*/
+    .S1vignette6 
+        {   
+            margin-top: 20px;    
+            margin-left: -4px;
+            width: 396px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            box-shadow: 7px 8px 13px #d8d7d7;
+            max-height: 230px;   
+            border: black 1px solid;        
+        }        
+    .S1photoVig6
+        {
+            border: 1px solid rgb(238, 236, 236);
+            border-radius:20px 20px 0px 0px;
+            width: 386px;
+            height: 140px;
+            max-height: none;
+            margin-top: 20px;
+            margin-bottom: 5px ;
+        }
+    .S1note6
+        {
+            margin-left: -128px;
+        }
+    /*section2*/
+    #section2 
+        {
+            flex-flow: column nowrap;            
+            margin-left: -9px;
+            margin-right: 70px;            
+            min-width: 460px;  
+            max-width: none; 
+            position: relative;
+            top: -1690px;
+            border-radius: 0px;  
+        } 
+    .iconsS2
+        {
+            margin-left: 170px;
+        }
+    .titleS2
+        {
+            margin-left: 32px;
+        }
+    .S2vignette1
+        {
+            margin-left: 34px;
+            width: 396px;
+        }
+    .S2vignette2
+        {
+            margin-left: 34px;
+            width: 396px;
+        }
+    .S2vignette3
+        {
+            margin-left: 34px;
+            width: 396px;
+        }
+    /*section3*/
+    #section3
+        {
+            margin-top: 1000px ; 
+            flex-flow: column nowrap;
+            height: auto;
+            width: 480px; 
+            margin-top: 50px; 
+            margin-left: 26px;              
+        }
+    .titleS3
+        {
+            margin-left: 3px;
+        }
+    /*Vig1*/
+    .S3vignette1
+        {
+            border: black solid 1px;
+            width: 396px; 
+            height: 225px;
+        }
+    .S3photoVig1
+        {
+            width: 398px;
+            height: 160px;
+            margin-left: -1px;
+        }
+    /*Vig2*/
+    .S3vignette2
+        {
+            border: black solid 1px;
+            width: 396px; 
+            height: 225px;
+        }
+    .S3photoVig2
+        {
+            width: 398px;
+            height: 160px;
+            margin-left: -1px;
+        }
+    /*Vig3*/
+    .S3vignette3
+        {
+            border: black solid 1px;
+            width: 396px; 
+            height: 225px;
+        }
+    .S3photoVig3
+        {
+            width: 398px;
+            height: 160px;
+            margin-left: -1px;
+        }
+    /*Vig4*/
+    .S3vignette4
+        {
+            border: black solid 1px;
+            width: 396px; 
+            height: 225px;
+        }
+    .S3photoVig4
+        {
+            width: 398px;
+            height: 160px;
+            margin-left: -1px;
+        }
+    /*Vig5*/
+    .S3vignette5
+        {
+            border: black solid 1px;
+            width: 396px; 
+            height: 225px;
+        }
+    .S3photoVig5
+        {
+            width: 398px;
+            height: 160px;
+            margin-left: -1px;
+        }
+    /*Vig6*/
+    .S3vignette6
+        {
+            border: black solid 1px;
+            width: 396px; 
+            height: 225px;
+        }
+    .S3photoVig6
+        {
+            width: 398px;
+            height: 160px;
+            margin-left: -1px;
+        }
+
+
+
+
+
+
+    #footer
+        {
+            margin-top: 100px;
+        }
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
     
 }
 
-@media all and (max-width: 1300px)
+@media all and (min-width: 480px) and (max-width:1300px)
 {
     /*Menu*/
     .menu_4
         {
             flex-flow: column wrap;
             max-height: 170px; 
-            max-width: 740px;           
-                      
+            max-width: 740px;   
+            min-width: none;                  
         }
 
     .menu_6
@@ -1383,8 +1671,12 @@ body {
         {
             margin-top: 107px;
             margin-left: -266.5px;
-
         }
+
+
+}
+@media all and (max-width:1300px) and (min-width:480px)
+{   
     /*Section 1 */
     #section1
         {
@@ -1456,10 +1748,6 @@ body {
         {
             margin-top: 81px;
         }
-    #sectionResponsive
-        {
-            min-width: 1090px;
-        }
     .titleS2
         {
             margin-top: 20px;
@@ -1469,7 +1757,8 @@ body {
     #section3
         { 
             min-height: 1100px;
-            width: 59%;            
+            width: 50%;        
+            max-width: none; 
         }
     .S3vignette6
         {
@@ -1480,4 +1769,58 @@ body {
         {
             order: 2;
         }
+}
+
+@media all and (max-width: 1100px) and (min-width: 480px)
+{
+    #sectionResponsive
+        {
+            max-width: 650px;
+        }
+    #section2
+        {
+            padding-top: 10px;
+            margin-top: 50px;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            width: 620px;
+        }
+    .iconsS2
+        {
+            position: relative;
+            top: -26px;
+            margin-left: 530px;
+        }
+    .S2vignette1
+        {
+            width: 570px;
+            max-width: none;
+        }
+    .S2photoVig1
+        {
+            width: 245px;
+        }
+    .S2vignette2
+        {
+            width: 570px;
+            max-width: none;
+        }
+    .S2photoVig2
+        {
+        width: 245px;
+        }
+    .S2vignette3
+        {
+            width: 570px;
+            max-width: none;
+        }
+    .S2photoVig3
+        {
+        width: 245px;
+        }
+    #footer
+        {
+            max-width: 1000px;
+        }
+
 }
