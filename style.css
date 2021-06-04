@@ -421,7 +421,7 @@ body {
     border-top: none;
     border-radius: 0px 0px 20px 20px;    
     background-color: white;
-    margin-left: 66.6%;
+    margin-left: 549px;
     margin-top: -215px;
     margin-bottom: 300px;
     box-shadow: 4px 4px 15px #cac8c8;
@@ -604,7 +604,7 @@ body {
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
-    margin-left: 66.6%;
+    margin-left: 549px;
     margin-top: -250px;
     width: 225px;
     max-height: 210px;
@@ -1099,7 +1099,7 @@ body {
 /*<Footer*/
 
 
-@media all and (max-width: 480px)
+@media all and (max-width: 500px)
 {   
     /*topSection*/
     #topSection
@@ -1131,7 +1131,7 @@ body {
             border-top: none;
             padding-bottom: 25px;            
             border-bottom: solid 5px; 
-            padding-left: 50px;           
+            padding-left: 59px;           
             padding-right: 55px;
             padding-top: 5px;
         }
@@ -1141,8 +1141,8 @@ body {
             padding-bottom: 25px;
             border-bottom: 5px solid;
             border-color: rgb(231, 229, 229);
-            margin-right: -20px;
-            padding-left: 85px;  
+            margin-right: -30px;
+            padding-left: 95px;  
             padding-right: 80px;
             padding-top: 5px;
                 
@@ -1191,10 +1191,9 @@ body {
             align-self: center;
             padding: 20px;
             padding-right: 27px;
-            margin-left: 5px;
+            margin-left: 6px;
             font-size: 22px;
             border-radius: 20px 0px 0px 20px;
-            border: black 1px solid;
         }
     .menu2_2 
         {
@@ -1202,7 +1201,7 @@ body {
             font-size: 21px;
             padding-left: 30px;
             padding-right: -50px;
-            width: 37%;
+            width: 38.3%;
             height: 58.5px;
             margin-top: 1px;
             border-color: #dbdbdb;
@@ -1257,7 +1256,7 @@ body {
         {
             flex-flow: column wrap ;            
             width: 80% ;
-            max-width: 300px ;
+            max-width: 30px ;
             
         } 
     .h2Menu
@@ -1353,26 +1352,25 @@ body {
         {    
             margin-top: 0px;    
             margin-left: -4px;
-            width: 396px;
+            width: 404px;
             background-color: rgb(255, 255, 255);
             border-radius: 30px;
             box-shadow: 7px 8px 13px #d8d7d7;
-            max-height: 230px;   
-            border: black 1px solid;        
+            max-height: 230px;         
         }        
     .S1photoVig1
         {
             border: 1px solid rgb(238, 236, 236);
             border-radius:20px 20px 0px 0px;
-            width: 386px;
+            width: 394px;
             height: 140px;
             max-height: none;
-            margin-top: 20px;
+            margin-top: 19px;
             margin-bottom: 5px ;
         }
     .S1note1
         {
-            margin-left: -128px;
+            margin-left: -137px;
         }
 
     /*Vig2*/
@@ -1380,130 +1378,125 @@ body {
         {   
             margin-top: 20px;    
             margin-left: -4px;
-            width: 396px;
+            width: 404px;
             background-color: rgb(255, 255, 255);
             border-radius: 30px;
             box-shadow: 7px 8px 13px #d8d7d7;
-            max-height: 230px;   
-            border: black 1px solid;        
+            max-height: 230px;          
         }        
     .S1photoVig2
         {
             border: 1px solid rgb(238, 236, 236);
             border-radius:20px 20px 0px 0px;
-            width: 386px;
+            width: 394px;
             height: 140px;
             max-height: none;
-            margin-top: 20px;
+            margin-top: 19px;
             margin-bottom: 5px ;
         }
     .S1note2
         {
-            margin-left: -128px;
+            margin-left: -137px;
         }
     /*Vig3*/
     .S1vignette3 
         {   
             margin-top: 20px;    
             margin-left: -4px;
-            width: 396px;
+            width: 404px;
             background-color: rgb(255, 255, 255);
             border-radius: 30px;
             box-shadow: 7px 8px 13px #d8d7d7;
-            max-height: 230px;   
-            border: black 1px solid;        
+            max-height: 230px;         
         }        
     .S1photoVig3
         {
             border: 1px solid rgb(238, 236, 236);
             border-radius:20px 20px 0px 0px;
-            width: 386px;
+            width: 394px;
             height: 140px;
             max-height: none;
-            margin-top: 20px;
+            margin-top: 19px;
             margin-bottom: 5px ;
         }
     .S1note3
         {
-            margin-left: -128px;
+            margin-left: -137px;
         }
     /*Vig4*/
     .S1vignette4 
         {   
             margin-top: -280px;    
             margin-left: -4px;
-            width: 396px;
+            width: 404px;
             background-color: rgb(255, 255, 255);
             border-radius: 30px;
             box-shadow: 7px 8px 13px #d8d7d7;
-            max-height: 230px;   
-            border: black 1px solid;        
+            max-height: 230px;       
         }        
     .S1photoVig4
         {
             border: 1px solid rgb(238, 236, 236);
             border-radius:20px 20px 0px 0px;
-            width: 386px;
+            width: 394px;
             height: 140px;
             max-height: none;
-            margin-top: 20px;
+            margin-top: 19px;
             margin-bottom: 5px ;
         }
     .S1note4
         {
-            margin-left: -128px;
+            margin-left: -137px;
         }
     /*Vig5*/
     .S1vignette5 
         {   
             margin-top: 20px;    
             margin-left: -4px;
-            width: 396px;
+            width: 404px;
             background-color: rgb(255, 255, 255);
             border-radius: 30px;
             box-shadow: 7px 8px 13px #d8d7d7;
-            max-height: 230px;   
-            border: black 1px solid;        
+            max-height: 230px;       
         }        
     .S1photoVig5
         {
             border: 1px solid rgb(238, 236, 236);
             border-radius:20px 20px 0px 0px;
-            width: 386px;
+            width: 394px;
             height: 140px;
             max-height: none;
-            margin-top: 20px;
+            margin-top: 19px;
             margin-bottom: 5px ;
         }
     .S1note5
         {
-            margin-left: -128px;
+            margin-left: -137px;
         }
     /*Vig6*/
     .S1vignette6 
         {   
             margin-top: 20px;    
             margin-left: -4px;
-            width: 396px;
+            width: 404px;
             background-color: rgb(255, 255, 255);
             border-radius: 30px;
             box-shadow: 7px 8px 13px #d8d7d7;
-            max-height: 230px;   
-            border: black 1px solid;        
+            max-height: 230px;        
         }        
     .S1photoVig6
         {
             border: 1px solid rgb(238, 236, 236);
             border-radius:20px 20px 0px 0px;
-            width: 386px;
+            width: 394px;
             height: 140px;
             max-height: none;
-            margin-top: 20px;
+            margin-top: 19px;
             margin-bottom: 5px ;
         }
     .S1note6
         {
-            margin-left: -128px;
+            margin-left: -137px;
         }
     /*section2*/
     #section2 
@@ -1511,7 +1504,7 @@ body {
             flex-flow: column nowrap;            
             margin-left: -9px;
             margin-right: 70px;            
-            min-width: 460px;  
+            min-width: 485px;  
             max-width: none; 
             position: relative;
             top: -1690px;
@@ -1519,7 +1512,7 @@ body {
         } 
     .iconsS2
         {
-            margin-left: 170px;
+            margin-left: 179px;
         }
     .titleS2
         {
@@ -1529,16 +1522,19 @@ body {
         {
             margin-left: 34px;
             width: 396px;
+            box-shadow: 3px 4px 13px #c2c2c2;
         }
     .S2vignette2
         {
             margin-left: 34px;
             width: 396px;
+            box-shadow: 3px 4px 13px #c2c2c2;
         }
     .S2vignette3
         {
             margin-left: 34px;
             width: 396px;
+            box-shadow: 3px 4px 13px #c2c2c2;
         }
     /*section3*/
     #section3
@@ -1546,7 +1542,7 @@ body {
             margin-top: 1000px ; 
             flex-flow: column nowrap;
             height: auto;
-            width: 480px; 
+            width: 440px; 
             margin-top: 50px; 
             margin-left: 26px;              
         }
@@ -1557,78 +1553,75 @@ body {
     /*Vig1*/
     .S3vignette1
         {
-            border: black solid 1px;
-            width: 396px; 
+            width: 404px; 
             height: 225px;
+            margin-bottom: -40px;
         }
     .S3photoVig1
         {
-            width: 398px;
+            width: 406px;
             height: 160px;
             margin-left: -1px;
         }
     /*Vig2*/
     .S3vignette2
         {
-            border: black solid 1px;
-            width: 396px; 
+            width: 404px; 
             height: 225px;
         }
     .S3photoVig2
         {
-            width: 398px;
+            width: 406px;
             height: 160px;
             margin-left: -1px;
         }
     /*Vig3*/
     .S3vignette3
         {
-            border: black solid 1px;
-            width: 396px; 
+            width: 404px; 
             height: 225px;
+            margin-bottom: -40px;
         }
     .S3photoVig3
         {
-            width: 398px;
+            width: 406px;
             height: 160px;
             margin-left: -1px;
         }
     /*Vig4*/
     .S3vignette4
         {
-            border: black solid 1px;
-            width: 396px; 
+            width: 404px; 
             height: 225px;
+            margin-bottom: -40px;
         }
     .S3photoVig4
         {
-            width: 398px;
+            width: 406px;
             height: 160px;
             margin-left: -1px;
         }
     /*Vig5*/
     .S3vignette5
         {
-            border: black solid 1px;
-            width: 396px; 
+            width: 404px; 
             height: 225px;
         }
     .S3photoVig5
         {
-            width: 398px;
+            width: 406px;
             height: 160px;
             margin-left: -1px;
         }
     /*Vig6*/
     .S3vignette6
         {
-            border: black solid 1px;
-            width: 396px; 
+            width: 404px; 
             height: 225px;
         }
     .S3photoVig6
         {
-            width: 398px;
+            width: 406px;
             height: 160px;
             margin-left: -1px;
         }
@@ -1641,13 +1634,28 @@ body {
     #footer
         {
             margin-top: 100px;
+            margin-left: -8px;
+            margin-bottom: -10px;
+            padding-bottom: 30px;
+            padding-left: 0px;
+            height: auto;
+            width: 106%;               
+            min-width: 400px; 
+        }
+    .titleFooter
+        {
+            margin-left: 50px;
+        }
+    .h3Footer
+        {
+            margin-left: 50px;
         }
         
     
     
 }
 
-@media all and (min-width: 480px) and (max-width:1300px)
+@media all and (min-width: 501px) and (max-width:1100px)
 {
     /*Menu*/
     .menu_4
@@ -1673,10 +1681,6 @@ body {
             margin-left: -266.5px;
         }
 
-
-}
-@media all and (max-width:1300px) and (min-width:480px)
-{   
     /*Section 1 */
     #section1
         {
@@ -1771,7 +1775,7 @@ body {
         }
 }
 
-@media all and (max-width: 1100px) and (min-width: 480px)
+@media all and (max-width: 1100px) and (min-width: 501px)
 {
     #sectionResponsive
         {
