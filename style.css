@@ -255,6 +255,7 @@ body {
 /*Responsive*/
 #sectionResponsive {
     max-width: 1300px;
+    min-width: 1240px;
     margin-right: 0px;
 }
 /*Section 1*/
@@ -284,6 +285,7 @@ body {
     border-radius: 30px;
     margin-left: 30px;
     width: 62%;
+    min-width: 800px;
     max-width: 840px;       
     max-height: 673px;   
     margin-top: -300px;   
@@ -1625,12 +1627,6 @@ body {
             height: 160px;
             margin-left: -1px;
         }
-
-
-
-
-
-
     #footer
         {
             margin-top: 100px;
@@ -1655,7 +1651,7 @@ body {
     
 }
 
-@media all and (min-width: 501px) and (max-width:1100px)
+@media all and (min-width: 501px) and (max-width:1024px)
 {
     /*Menu*/
     .menu_4
@@ -1773,10 +1769,6 @@ body {
         {
             order: 2;
         }
-}
-
-@media all and (max-width: 1100px) and (min-width: 501px)
-{
     #sectionResponsive
         {
             max-width: 650px;
@@ -1826,5 +1818,4 @@ body {
         {
             max-width: 1000px;
         }
-
 }
