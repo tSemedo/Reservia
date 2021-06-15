@@ -438,7 +438,7 @@ body {
 #footer {
     display: flex;
     flex-flow: row wrap;
-    width: 80%;
+    /* width: 80%; */
     justify-content: space-between;
     background-color: #f2f2f2;
     /* border:  1px solid black; */
@@ -471,40 +471,47 @@ body {
     .contenairTopPhone {
         display: flex;
         width: 100%;
-
+        zoom: 200%;
+        /* margin-top: ; */
+    }
+    .imgLogo {
+        zoom: 140%;
     }
     .element_1 {
-    
+        font-size: 18px;
         border-top: none;
         padding-top: 0px;
         padding-left :70px;
-        padding-right: 70px;
+        padding-right: 50px;
         padding-bottom: 15px;
         border-bottom: 2px #0065FC solid;
         position: relative;
-        bottom: 40px;
+        bottom: 20px;
     }
     .element_2 {
-        width: 100%;
+        font-size: 18px;
         padding-bottom: 15px;
-        padding-left :70px;
-        padding-right: 70px;
+        padding-left :90px;
+        padding-right: 85px;
         border-bottom: solid 2px #c9c9c9;
         position: relative;
-        bottom: 40px;
+        bottom: 20px;
     }
     .element_3 {
+        font-size: 32px;
         position: relative;
-        bottom: 130px;
+        bottom: 170px;
+        left: 42px;
     }
     #menu {
-        width: 80%;
+        width: 90%;
+        zoom: 150%;
     }
     .titleMenu {
-        font-size: 28px;
+        font-size: 38px;
     }
     .p1Menu {
-        font-size: 20px;
+        font-size: 28px;
     }
     .boutonBig {
         display: none;
@@ -512,28 +519,51 @@ body {
     .boutonSmall {
         display: inline-block;
         margin-left: -20px;
+        zoom: 138%;
+    }
+    .iconRecherche {
+        font-size: 25px;
+        padding: 20px;
     }
     .cityText {
-        width: 74%;
+        width: 70%;
+        font-size: 29px;
+        padding: 15.5px ;
+        position: relative;
+        top: 0.7px;
     }
     .titleNav {
         width: 80%;
+        font-size: 27px;
+    }
+    .containerNav {
+        /* font-size: 20px; */
+        /* max-width: 490px; */
+    }
+    .menuNav {
+        zoom: 160%
+    }
+    .iconInfoMenu {
+        zoom: 160%;
     }
     .p2Menu {
-        font-size: 19px;
+        font-size: 27px;
     }
-    #contenair-section {     
+    #contenair-section {    
         flex-flow: row wrap-reverse;
+
     }
     #section2 {
         width: 100%;
         border-radius: 0px;
         margin: 0px;
         margin-bottom: 3em;
+        zoom: 200%;
     }
     .titleS2 {
         font-size: 30px;
     }
+    /* Section 1 */
     #section1 {
         width: 100%;
         margin: 0px;
@@ -543,19 +573,27 @@ body {
         box-shadow: none;
     }
     .titleS1 {
-        font-size: 30px;
+        zoom: 220%;
     }
     .S1vignette {
         width: 100%;
-        height: 225px;
+        height: 235px;
+        border-radius: 20px;
+        zoom: 220%;
     }
     .S1photoVig {
         width: 410px;
-        height: 140px;
+        height: 140px;       
+        border-radius: 17px 17px 0px 0px;
     } 
+    .title_2_S1 {
+        zoom: 200%;
+    }
+    /* Section 3 */
     #section3 {
-        margin-top: -70px;
-        padding: 2em;
+        zoom: 219%;
+        margin-top: -10px;
+        padding: 14px;
     }
     .titleS3 {
         font-size: 30px;
@@ -567,7 +605,6 @@ body {
     }
     .S3vignetteBig {
         width: 100%;
-
     }
     .S3photoVigBig {
         margin-top: -16px;
@@ -582,6 +619,10 @@ body {
         margin-top: -16px;
         width: 420px;
         height: 175px;
+    }
+    /* Footer */
+    #footer {
+        zoom: 200%;
     }
 
 
@@ -711,7 +752,7 @@ body {
 
 }
 /* Screen Tab */
-@media screen and (min-width:501px) and (max-width:990px)
+@media screen and (min-width:501px) and (max-width:990px) and (min-device-width:500px)
 {   
     
     .containerRecherche {
