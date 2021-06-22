@@ -18,9 +18,6 @@ body {
   height: 100vh;
   margin: 0px;
 }
-.container-grille {
-    
-}
 /*Header-Topsection*/
 #topSection {
     display: flex;    
@@ -462,7 +459,7 @@ body {
 }
 /*<Footer*/
 /* screen Phone */
-@media screen  and (max-device-width:480px)
+@media screen and (max-device-width:500px)
 {
     #topSection {
         margin-top: -40px;
@@ -627,34 +624,46 @@ body {
 
 
 }
-@media screen  and (max-width:500px)
+/* Mini Screen Tablette and PC */
+@media screen  and (min-width:500px) and (max-width: 580px)
 {
     #topSection {
         margin-top: -40px;
         flex-direction: column;
     }
-    .contenairTopPhone {
-        display: flex;
+    .containerTop {
         width: 100%;
-
+    }
+    .contenairTopPhone {
+        width: 100%;
+    }
+    .contenairElement_1 {
+        display: flex;
+        width: 50%;
     }
     .element_1 {
-    
+        display: flex;
+        justify-content: center;
+        width: 100%;
         border-top: none;
         padding-top: 0px;
-        padding-left :70px;
-        padding-right: 70px;
         padding-bottom: 15px;
         border-bottom: 2px #0065FC solid;
+
         position: relative;
         bottom: 40px;
     }
+    .contenairElement_2 {
+        display: flex;
+        width: 50%;
+    }
     .element_2 {
+        display: flex;
+        justify-content: center;
         width: 100%;
         padding-bottom: 15px;
-        padding-left :70px;
-        padding-right: 70px;
         border-bottom: solid 2px #c9c9c9;
+
         position: relative;
         bottom: 40px;
     }
@@ -700,6 +709,7 @@ body {
         font-size: 30px;
     }
     #section1 {
+        justify-content: center;
         width: 100%;
         margin: 0px;
         margin-top: -50px;
@@ -710,8 +720,8 @@ body {
     .titleS1 {
         font-size: 30px;
     }
-    .S1vignette {
-        width: 100%;
+    .S1vignette {        
+        width: 420px;
         height: 225px;
     }
     .S1photoVig {
@@ -719,6 +729,7 @@ body {
         height: 140px;
     } 
     #section3 {
+        justify-content: center;
         margin-top: -70px;
         padding: 2em;
     }
@@ -726,12 +737,13 @@ body {
         font-size: 30px;
     }
     .contenair-SmallVig {
+        align-items: center;
         width: 100%;
-        height: 480px;
+        height: 470px;
         margin-bottom: 20px ;
     }
     .S3vignetteBig {
-        width: 100%;
+        width: 420px;
 
     }
     .S3photoVigBig {
@@ -740,7 +752,7 @@ body {
         height: 175px;
     }
     .S3vignetteSmall {
-        width: 100%;
+        width: 420px;
         height: 224px;
     }
     .S3photoVigSmall {
@@ -748,11 +760,9 @@ body {
         width: 420px;
         height: 175px;
     }
-
-
 }
 /* Screen Tab */
-@media screen and (min-width:501px) and (max-width:990px) and (min-device-width:500px)
+@media screen and (min-width:580px) and (max-width:990px) 
 {   
     
     .containerRecherche {
@@ -782,40 +792,8 @@ body {
         }
     
 }
-/* trans Tabl 1024px */
-@media screen and (min-width:991px) and (max-width:1024px)
-{
-    #topSection {
-        zoom: 77%;
-    }
-    #menu {
-        zoom: 77%;
-    }
-    .containerNav {
-
-        min-width: 814px;
-    }
-    #section1 {
-        /* width: 56%; */
-        /* min-width: 750px; */
-        zoom: 77%
-    }
-    #section2 {
-        /* min-width: 437px; */
-        zoom: 75%
-    }
-    #section3 {
-        zoom: 74%
-    }
-    #footer {
-        zoom: 80%;
-    }
-    .titleFooter {
-        font-size: 21px;
-    }
-}
 /*Screen 1024px*/
-@media screen and (min-width:1024px) and (max-width:1280px)
+@media screen and (min-width:990px) and (max-width:1280px)
 { 
     #topSection {
         zoom: 77%;
@@ -849,25 +827,21 @@ body {
     }
     
 }
-/*trans 1024px XL*/
-@media screen and (min-width:1280px) and (max-width:1300px)
-    {
+/* screen XL */
+@media screen and (min-width:1280px) 
+{ 
     #section1 {
         zoom: 90%;
     }
-}
-@media screen and (min-width:1280px) and (max-width:1320px)
-    {
+    
     #section3 {
         zoom: 90%;
     }
-}
-/* screen XL */
-@media screen and (min-width:1280px)
-{
+    
     .containerNav {
 
         min-width: 814px;
     }
+}
     
 }
