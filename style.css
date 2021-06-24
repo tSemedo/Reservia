@@ -458,8 +458,9 @@ body {
     font-size: 18px;
 }
 /*<Footer*/
+
 /* screen Phone */
-@media screen and (max-device-width:500px)
+@media screen and (max-device-width:480px)
 {
     #topSection {
         margin-top: -40px;
@@ -762,34 +763,31 @@ body {
     }
 }
 /* Screen Tab */
-@media screen and (min-width:580px) and (max-width:990px) 
+@media screen and (min-width:580px) and (max-width:990px) and (min-device-width:480px)
 {   
-    
-    .containerRecherche {
-        min-width: 350px; 
-    }
     .cityText {
-    min-width: 170px;
-    }
-    
+        width: 50%;
+    }    
     #contenair-section {
         margin-right: 1.5em;
         flex-direction: column;
     }
     #section1 {
-        width: 90%;
-        /* border:  1px solid black; */
-        margin-bottom: 3em;
-        /* margin-right: 3em; */
+        width: 90%;        
+        margin-bottom: 3em;        
     }
     #section2 {
         width: 90%;
-        /* margin-right: 3em; */
-        /* border:  1px solid black; */
+    }
+    #section3 {
+        padding: 60px 5em 60px 3em;
     }
     .contenair-SmallVig {
         margin-bottom: 20px ;
         }
+    #footer {
+        zoom: 90%
+    }
     
 }
 /*Screen 1024px*/
@@ -807,20 +805,18 @@ body {
     }
     
     #section1 {
-        /* width: 56%; */
-        min-width: 750px;
+        min-width: 715px;
         zoom: 80%
     }
     #section2 {
-        min-width: 437px;
+        min-width: 420px;
         zoom: 75%
     }
     #section3 {
-        min-width: 1385px;
-        zoom: 75%
+        zoom: 72.5%;
     }
     #footer {
-        zoom: 80%;
+        zoom: 70%;
     }
     .titleFooter {
         font-size: 21px;
@@ -831,7 +827,7 @@ body {
 @media screen and (min-width:1280px) 
 { 
     #section1 {
-        zoom: 90%;
+        zoom: 97%;
     }
     
     #section3 {
