@@ -154,7 +154,11 @@ body {
     border: solid#e4e4e4 2px;
     border-left: none;
     border-radius: 25px;
-    height: 40px;    
+    height: 40px;   
+}
+.menuNavText {
+    text-decoration: none; 
+    color: black;
 }
 /*Effet de survol Filtres*/
 .menuNav:hover {
@@ -301,8 +305,6 @@ body {
     width: 100%;
     justify-content: space-between;
     font-family: 'Raleway-Bold';
-}
-.iconsS2 {
 }
 /*Vignette 1*/
 
@@ -466,12 +468,6 @@ body {
         margin-top: -40px;
         flex-direction: column;
     }
-    .contenairTopPhone {
-        display: flex;
-        width: 100%;
-        zoom: 200%;
-        /* margin-top: ; */
-    }
     .imgLogo {
         zoom: 140%;
     }
@@ -479,21 +475,26 @@ body {
         font-size: 18px;
         border-top: none;
         padding-top: 0px;
-        padding-left :70px;
+        padding-left :106px;
         padding-right: 50px;
         padding-bottom: 15px;
         border-bottom: 2px #0065FC solid;
         position: relative;
         bottom: 20px;
+        zoom: 180%;
+        width: 50%;
     }
     .element_2 {
         font-size: 18px;
         padding-bottom: 15px;
         padding-left :90px;
-        padding-right: 85px;
+        padding-right: 105px;
         border-bottom: solid 2px #c9c9c9;
         position: relative;
         bottom: 20px;
+        zoom: 180%;
+        width: 50%;
+        margin-right: -30px;
     }
     .element_3 {
         font-size: 32px;
@@ -838,6 +839,4 @@ body {
 
         min-width: 814px;
     }
-}
-    
 }
