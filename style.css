@@ -15,13 +15,12 @@
 }
 body {
   font-family: "Raleway-Regular", Arial, serif;
-  height: 100vh;
   margin: 0px;
 }
 /*Header-Topsection*/
 #topSection {
     display: flex;    
-    width: 100%;   
+    width: 100%; 
 }
 .imgLogo {
     padding-top: 30px;
@@ -39,13 +38,12 @@ body {
 .element_1 {    
     text-decoration: none;
     color: #0065FC; 
-    border-top: 2px solid ;
-    padding: 52px 2em 0px;
+    padding: 50px 2em 0px;
 }
 .element_2 {
     text-decoration: none;
     color: gray;
-    padding: 0px 2em;
+    padding: 50px 2em 0px;
 }
 .element_3 {    
     text-decoration: none;
@@ -55,6 +53,11 @@ body {
 }
 .contenairTopPhone {
     display: inherit;
+}
+
+/* Effet de survol #Ancre */
+.element_1:hover, .element_2:hover {
+    border-top: 6px solid ;
 }
 
 /*Menu*/
@@ -218,7 +221,7 @@ body {
     width: 100%;
     font-family: 'Raleway-Bold';
 }
-/*VignetteS1*/
+/*Vignette S1*/
 .linkS1 {
     text-decoration: none;
     color: inherit;
@@ -239,6 +242,7 @@ body {
     border-radius: 15px 15px 0px 0px ;
     margin-bottom: -25px;
     margin-top: -12px;
+    object-fit: cover;
 }
 .S1titleVig  {
     align-self: flex-start;
@@ -281,7 +285,7 @@ body {
 #contenair-section {
     display: flex;
     /* flex-flow: row wrap-reverse; */
-    justify-content: space-between;   
+    justify-content: space-between;  
 }
 /*Section 2*/
 
@@ -306,7 +310,7 @@ body {
     justify-content: space-between;
     font-family: 'Raleway-Bold';
 }
-/*Vignette 1*/
+/*Vignette S2*/
 
 .S2vignette {
     display: flex;
@@ -318,7 +322,6 @@ body {
     box-shadow: rgb(179, 179, 179) 3px 5px 20px;
     margin-top: 31.5px;
     margin-bottom: 12px;
-
 }
 .S2photoVig {
     width: 145px;
@@ -326,6 +329,7 @@ body {
     margin-left: -35px;
     margin-top: -11px;
     border-radius: 15px 0px 0px 15px;    
+    object-fit: cover;
 }
 .contenair-S2Vign {
     display: flex;
@@ -338,15 +342,13 @@ body {
     font-family:'Raleway-Bold';
     font-size: 17px;
     width: 100%;
-    margin: 0px;
- 
+    margin: 0px; 
 }
 .S2prixVig {
     font-size: 15px;
     width:  100%;
     margin: 0px;
     margin-top: -25px;
-
 }
 .S2note {
     font-size: 14px;
@@ -395,6 +397,7 @@ body {
     height: 400px ;
     width: 300px;
     border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
 }
 .S3titleVigBig {
     align-self: flex-start;
@@ -426,6 +429,7 @@ body {
     width: 300px;
     border-radius: 15px 20px 0px 0px;
     bottom: 17px;
+    object-fit: cover;
 }
 .S3titleVigSmall {
     align-self: flex-start;
@@ -442,9 +446,10 @@ body {
     background-color: #f2f2f2;
     /* border:  1px solid black; */
     padding: 0px 23em 50px 3em;
-    
-     
-  }
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;    
+}
 .contenair-footer1 {
     flex-direction: column;
     height: 100%;
@@ -464,6 +469,7 @@ body {
 /* screen Phone */
 @media screen and (max-device-width:480px)
 {
+    /* Top Section */
     #topSection {
         margin-top: -40px;
         flex-direction: column;
@@ -502,6 +508,10 @@ body {
         bottom: 170px;
         left: 42px;
     }
+    .element_1:hover, .element_2:hover {
+        border-top: none;
+    }
+    /* Menu + Nav */
     #menu {
         width: 90%;
         zoom: 150%;
@@ -548,10 +558,11 @@ body {
     .p2Menu {
         font-size: 27px;
     }
+    /* Contenair Section 1 et 2 */
     #contenair-section {    
         flex-flow: row wrap-reverse;
-
     }
+    /* Section 2 */
     #section2 {
         width: 100%;
         border-radius: 0px;
@@ -623,12 +634,11 @@ body {
     #footer {
         zoom: 200%;
     }
-
-
 }
 /* Mini Screen Tablette and PC */
 @media screen  and (min-width:500px) and (max-width: 580px)
 {
+    /* Top Section */
     #topSection {
         margin-top: -40px;
         flex-direction: column;
@@ -664,6 +674,7 @@ body {
         justify-content: center;
         width: 100%;
         padding-bottom: 15px;
+        padding-top: 0px;
         border-bottom: solid 2px #c9c9c9;
 
         position: relative;
@@ -673,6 +684,10 @@ body {
         position: relative;
         bottom: 130px;
     }
+    .element_1:hover, .element_2:hover {
+        border-top: none;
+    }
+    /* Menu  */
     #menu {
         width: 80%;
     }
@@ -698,9 +713,11 @@ body {
     .p2Menu {
         font-size: 19px;
     }
+    /* Contenair Section 1 et 2 */
     #contenair-section {     
         flex-flow: row wrap-reverse;
     }
+    /* Section 2 */
     #section2 {
         width: 100%;
         border-radius: 0px;
@@ -710,6 +727,7 @@ body {
     .titleS2 {
         font-size: 30px;
     }
+    /* Section 1 */
     #section1 {
         justify-content: center;
         width: 100%;
@@ -730,6 +748,7 @@ body {
         width: 410px;
         height: 140px;
     } 
+    /* Section 3 */
     #section3 {
         justify-content: center;
         margin-top: -70px;
@@ -746,7 +765,6 @@ body {
     }
     .S3vignetteBig {
         width: 420px;
-
     }
     .S3photoVigBig {
         margin-top: -16px;
@@ -766,9 +784,11 @@ body {
 /* Screen Tab */
 @media screen and (min-width:580px) and (max-width:990px) and (min-device-width:480px)
 {   
+    /* Menu */
     .cityText {
         width: 50%;
-    }    
+    } 
+
     #contenair-section {
         margin-right: 1.5em;
         flex-direction: column;
@@ -785,7 +805,7 @@ body {
     }
     .contenair-SmallVig {
         margin-bottom: 20px ;
-        }
+    }
     #footer {
         zoom: 90%
     }
@@ -797,14 +817,16 @@ body {
     #topSection {
         zoom: 77%;
     }
+
+
     #menu {
         zoom: 77%;
     }
     .containerNav {
-
         min-width: 814px;
     }
-    
+
+
     #section1 {
         min-width: 715px;
         zoom: 80%
@@ -816,6 +838,8 @@ body {
     #section3 {
         zoom: 72.5%;
     }
+
+
     #footer {
         zoom: 70%;
     }
@@ -825,7 +849,7 @@ body {
     
 }
 /* screen XL */
-@media screen and (min-width:1280px) 
+@media screen and (min-width:1280px) and (max-width:1440px)
 { 
     #section1 {
         zoom: 97%;
@@ -836,7 +860,14 @@ body {
     }
     
     .containerNav {
-
         min-width: 814px;
+    }
+}
+/* screen XXL */
+@media screen and (min-width:1440px)
+{
+    #topSection, #menu, #contenair-section ,#section3, #footer {
+        max-width: 1440px;
+        margin: 0 auto;
     }
 }
